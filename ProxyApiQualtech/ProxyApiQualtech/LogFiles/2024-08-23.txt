@@ -1,0 +1,39 @@
+
+At 2024-08-23 16:19:52 accessed entry point on: 127.0.0.1:5204 from: 127.0.0.1:49876
+At 2024-08-23 16:19:52127.0.0.1:49876 accessed api point https://qbcdeverpapp.qualtech.int/erppilot/api/v2/efx/QS/BTMobileImport/GetPlantByCustomerID
+Endpoint not whitelisted close connexion https://qbcdeverpapp.qualtech.int/erppilot/api/v2/efx/QS/BTMobileImport/GetPlantByCustomerID2024-08-23 16:19:52
+
+At 2024-08-23 16:22:10 accessed entry point on: 127.0.0.1:5204 from: 127.0.0.1:54692
+At 2024-08-23 16:22:10127.0.0.1:54692 accessed api point https://epicordev.Qualtech.ca/erppilot/api/v2/efx/QS/BTMobileImport/GetPlantByCustomerID
+Endpoint not whitelisted close connexion https://epicordev.Qualtech.ca/erppilot/api/v2/efx/QS/BTMobileImport/GetPlantByCustomerID2024-08-23 16:22:10
+
+At 2024-08-23 16:23:41 accessed entry point on: 127.0.0.1:5204 from: 127.0.0.1:55592
+At 2024-08-23 16:23:41127.0.0.1:55592 accessed api point https://epicordev.Qualtech.ca/erppilot/api/v2/efx/QS/BTMobileImport/GetPlantByCustomerID
+Endpoint not whitelisted close connexion https://epicordev.Qualtech.ca/erppilot/api/v2/efx/QS/BTMobileImport/GetPlantByCustomerID2024-08-23 16:23:41
+
+At 2024-08-23 16:24:22 accessed entry point on: 127.0.0.1:5204 from: 127.0.0.1:55644
+At 2024-08-23 16:24:22127.0.0.1:55644 accessed api point https://epicordev.Qualtech.ca/erppilot/api/v2/efx/QS/BTMobileImport/GetPlantByCustomerID
+
+At 2024-08-23 16:25:25 accessed entry point on: 127.0.0.1:5204 from: 127.0.0.1:55702
+At 2024-08-23 16:25:25127.0.0.1:55702 accessed api point https://epicordev.Qualtech.ca/erppilot/api/v2/efx/QS/BTMobileImport/GetPlantByCustomerID
+
+At 2024-08-23 16:26:44 accessed entry point on: 127.0.0.1:5204 from: 127.0.0.1:49667
+At 2024-08-23 16:26:44127.0.0.1:49667 accessed api point https://epicordev.Qualtech.ca/erppilot/api/v2/efx/QS/BTMobileImport/GetPlantByCustomerID
+
+At 2024-08-23 16:26:45 accessed entry point on: 127.0.0.1:5204 from: 127.0.0.1:49674
+At 2024-08-23 16:26:45127.0.0.1:49674 accessed api point https://epicordev.Qualtech.ca/erppilot/api/v2/efx/QS/Projects/CreateServiceProject
+
+At 2024-08-23 16:27:02 accessed entry point on: 127.0.0.1:5204 from: 127.0.0.1:49677
+At 2024-08-23 16:27:02127.0.0.1:49677 accessed api point https://epicordev.Qualtech.ca/erppilot/api/v2/odata/QS/Erp.BO.JobOperSearchSvc/JobOperSearches?%24select=OprSeq%2C+OpCode%2C+Description&%24filter=JobNum+eq+%27S100009-114%27+and+OpCode+eq+%27MS520%27
+
+At 2024-08-23 16:27:02 accessed entry point on: 127.0.0.1:5204 from: 127.0.0.1:49680
+At 2024-08-23 16:27:02127.0.0.1:49680 accessed api point https://epicordev.Qualtech.ca/erppilot/api/v2/efx/QS/BTMobileImport/CreateOprFromJobNum
+
+At 2024-08-23 16:27:02 accessed entry point on: 127.0.0.1:5204 from: 127.0.0.1:49683
+At 2024-08-23 16:27:02127.0.0.1:49683 accessed api point https://epicordev.Qualtech.ca/erppilot/api/v2/efx/QS/BTMobileImport/GetEmployeeDataBase
+
+At 2024-08-23 16:27:03 accessed entry point on: 127.0.0.1:5204 from: 127.0.0.1:49686
+At 2024-08-23 16:27:03127.0.0.1:49686 accessed api point https://epicordev.Qualtech.ca/erppilot/api/v2/odata/QS/Erp.BO.EmpBasicSvc/EmpBasics?%24select=EmpID%2CFirstName%2CLastName&%24filter=EmpID+eq+%27FORANT%27&%24top=1
+
+At 2024-08-23 16:27:03 accessed entry point on: 127.0.0.1:5204 from: 127.0.0.1:49689
+At 2024-08-23 16:27:03127.0.0.1:49689 accessed api point https://epicordev.Qualtech.ca/erppilot/api/v2/efx/QS/BTMobileImport/BTMobileDataEntry

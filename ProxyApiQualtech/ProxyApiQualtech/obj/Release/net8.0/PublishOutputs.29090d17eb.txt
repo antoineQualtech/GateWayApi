@@ -1,0 +1,16 @@
+C:\Users\forant\source\repos\ProxyApiQualtech\ProxyApiQualtech\obj\Release\net8.0\PubTmp\Out\ProxyApiQualtech.exe
+C:\Users\forant\source\repos\ProxyApiQualtech\ProxyApiQualtech\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+C:\Users\forant\source\repos\ProxyApiQualtech\ProxyApiQualtech\obj\Release\net8.0\PubTmp\Out\appsettings.json
+C:\Users\forant\source\repos\ProxyApiQualtech\ProxyApiQualtech\obj\Release\net8.0\PubTmp\Out\JsonModelEntryData.json
+C:\Users\forant\source\repos\ProxyApiQualtech\ProxyApiQualtech\obj\Release\net8.0\PubTmp\Out\ProxyApiQualtech.dll
+C:\Users\forant\source\repos\ProxyApiQualtech\ProxyApiQualtech\obj\Release\net8.0\PubTmp\Out\ProxyApiQualtech.deps.json
+C:\Users\forant\source\repos\ProxyApiQualtech\ProxyApiQualtech\obj\Release\net8.0\PubTmp\Out\ProxyApiQualtech.runtimeconfig.json
+C:\Users\forant\source\repos\ProxyApiQualtech\ProxyApiQualtech\obj\Release\net8.0\PubTmp\Out\ProxyApiQualtech.pdb
+C:\Users\forant\source\repos\ProxyApiQualtech\ProxyApiQualtech\obj\Release\net8.0\PubTmp\Out\Microsoft.Extensions.Hosting.WindowsServices.dll
+C:\Users\forant\source\repos\ProxyApiQualtech\ProxyApiQualtech\obj\Release\net8.0\PubTmp\Out\Microsoft.OpenApi.dll
+C:\Users\forant\source\repos\ProxyApiQualtech\ProxyApiQualtech\obj\Release\net8.0\PubTmp\Out\Newtonsoft.Json.dll
+C:\Users\forant\source\repos\ProxyApiQualtech\ProxyApiQualtech\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\forant\source\repos\ProxyApiQualtech\ProxyApiQualtech\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\forant\source\repos\ProxyApiQualtech\ProxyApiQualtech\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\forant\source\repos\ProxyApiQualtech\ProxyApiQualtech\obj\Release\net8.0\PubTmp\Out\System.ServiceProcess.ServiceController.dll
+C:\Users\forant\source\repos\ProxyApiQualtech\ProxyApiQualtech\obj\Release\net8.0\PubTmp\Out\runtimes\win\lib\net8.0\System.ServiceProcess.ServiceController.dll

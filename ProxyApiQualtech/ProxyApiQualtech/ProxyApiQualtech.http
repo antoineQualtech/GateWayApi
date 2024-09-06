@@ -1,0 +1,6 @@
+@ProxyApiQualtech_HostAddress = http://localhost:5204
+
+GET {{ProxyApiQualtech_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
