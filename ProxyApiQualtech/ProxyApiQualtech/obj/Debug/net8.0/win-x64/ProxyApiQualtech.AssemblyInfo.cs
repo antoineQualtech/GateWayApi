@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProxyApiQualtech")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d9fae6a1ecf582999400bbd642fdb581481e06e0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fca22580a6ad0571b69b7a4b6d2e19d15f696e0d")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProxyApiQualtech")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProxyApiQualtech")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
