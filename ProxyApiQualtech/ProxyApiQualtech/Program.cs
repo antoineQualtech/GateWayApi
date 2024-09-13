@@ -9,8 +9,10 @@ using Microsoft.Extensions.Logging.EventLog;
 var builder = WebApplication.CreateBuilder(args);
 
 //lancer sur port spécifié
-var portArg = args.FirstOrDefault(arg => arg.StartsWith("--port="));
-var port = portArg != null ? int.Parse(portArg.Split('=')[1]) : 5000;
+builder.WebHost.ConfigureKestrel(serverOptions =>
+{
+    serverOptions.ListenAnyIP(5204); // http
+}); 
 
 builder.Services.AddControllers();
 
@@ -20,14 +22,17 @@ builder.Services.AddSwaggerGen();
 
 
 builder.Host.UseWindowsService();
-builder.Services.AddWindowsService(options =>
+builder.Services.AddWindowsService();
+builder.Services.AddHostedService<ServiceWorker>();
+builder.Logging.AddEventLog(loggingBuilder =>
 {
-    options.ServiceName = "ApiGateWay";
+    loggingBuilder.SourceName = "GateWayApiLogs";
 });
+/*
 LoggerProviderOptions.RegisterProviderOptions<EventLogSettings, EventLogLoggerProvider>(builder.Services);
 builder.Services.AddHostedService<ServiceWorker>();
-builder.Logging.AddConfiguration(
-    builder.Configuration.GetSection("Logging"));
+builder.Logging.AddConfiguration(builder.Configuration.GetSection("Logging"));*/
+
 
 //rate limiter ajouté
 builder.Services.AddRateLimiter(_ =>

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using System.IO;
 
 namespace ProxyApiQualtech.Services.FileWriter
@@ -7,28 +8,45 @@ namespace ProxyApiQualtech.Services.FileWriter
     {
         public LogFileWriter()
         {
+            if (!EventLog.SourceExists("ApiGatewayCustomLogs"))
+            {
+                EventLog.CreateEventSource("ApiGatewayCustomLogs", "Application");
+            }
+            EventLog.WriteEntry("ApiGatewayCustomLogs", "Emplacement des logs " + Path.Combine(Directory.GetCurrentDirectory(), "LogFiles"), EventLogEntryType.Information);
         }
 
         public void WriteLogFile(string logMessage)
         {
-            // Determine the root directory and log files directory
-            string rootDirectory = Directory.GetCurrentDirectory();
-            string logFilesDirectory = Path.Combine(rootDirectory, "LogFiles");
-
-            // Ensure the LogFiles directory exists
-            if (!Directory.Exists(logFilesDirectory))
+            try
             {
-                Directory.CreateDirectory(logFilesDirectory);
-            }
 
-            // Create a log file with today's date as the filename
-            string currentDate = DateTime.Now.ToString("yyyy-MM-dd");
-            string logFilePath = Path.Combine(logFilesDirectory, $"{currentDate}.txt");
+                // Determine the root directory and log files directory
+                string rootDirectory = Directory.GetCurrentDirectory();
+                string logFilesDirectory = Path.Combine(rootDirectory, "LogFiles");
 
-            // Write the log message to the file
-            using (var logFile = new StreamWriter(new FileStream(logFilePath, FileMode.Append, FileAccess.Write)))
+                // Ensure the LogFiles directory exists
+                if (!Directory.Exists(logFilesDirectory))
+                {
+
+                    Directory.CreateDirectory(logFilesDirectory);
+                }
+
+                // Create a log file with today's date as the filename
+                string currentDate = DateTime.Now.ToString("yyyy-MM-dd");
+                string logFilePath = Path.Combine(logFilesDirectory, $"{currentDate}.txt");
+
+                // Write the log message to the file
+                using (var logFile = new StreamWriter(new FileStream(logFilePath, FileMode.Append, FileAccess.Write)))
+                {
+                    logFile.WriteLine(logMessage);
+                }
+            }catch(Exception ex)
             {
-                logFile.WriteLine(logMessage);
+                if (!EventLog.SourceExists("ApiGatewayCustomLogs"))
+                {
+                    EventLog.CreateEventSource("ApiGatewayCustomLogs", "Application");
+                }
+                EventLog.WriteEntry("ApiGatewayCustomLogs", ex.Message, EventLogEntryType.Error);
             }
         }
     }

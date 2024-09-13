@@ -1,30 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\forant\\source\\repos\\ProxyApiQualtech\\",
+  "WorkspaceRootPath": "C:\\Users\\Antoine\\Desktop\\qualtech\\GateWayApi\\ProxyApiQualtech\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A76922B1-A20F-4CC2-BB36-1A5945493D97}|ProxyApiQualtech\\ProxyApiQualtech.csproj|c:\\users\\forant\\source\\repos\\proxyapiqualtech\\proxyapiqualtech\\services\\backgroundservices\\serviceworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A76922B1-A20F-4CC2-BB36-1A5945493D97}|ProxyApiQualtech\\ProxyApiQualtech.csproj|solutionrelative:proxyapiqualtech\\services\\backgroundservices\\serviceworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A76922B1-A20F-4CC2-BB36-1A5945493D97}|ProxyApiQualtech\\ProxyApiQualtech.csproj|c:\\users\\antoine\\desktop\\qualtech\\gatewayapi\\proxyapiqualtech\\proxyapiqualtech\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A76922B1-A20F-4CC2-BB36-1A5945493D97}|ProxyApiQualtech\\ProxyApiQualtech.csproj|solutionrelative:proxyapiqualtech\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A76922B1-A20F-4CC2-BB36-1A5945493D97}|ProxyApiQualtech\\ProxyApiQualtech.csproj|c:\\users\\forant\\source\\repos\\proxyapiqualtech\\proxyapiqualtech\\model\\entrydatamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A76922B1-A20F-4CC2-BB36-1A5945493D97}|ProxyApiQualtech\\ProxyApiQualtech.csproj|solutionrelative:proxyapiqualtech\\model\\entrydatamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A76922B1-A20F-4CC2-BB36-1A5945493D97}|ProxyApiQualtech\\ProxyApiQualtech.csproj|c:\\users\\antoine\\desktop\\qualtech\\gatewayapi\\proxyapiqualtech\\proxyapiqualtech\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A76922B1-A20F-4CC2-BB36-1A5945493D97}|ProxyApiQualtech\\ProxyApiQualtech.csproj|solutionrelative:proxyapiqualtech\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A76922B1-A20F-4CC2-BB36-1A5945493D97}|ProxyApiQualtech\\ProxyApiQualtech.csproj|c:\\users\\forant\\source\\repos\\proxyapiqualtech\\proxyapiqualtech\\logfiles\\2024-09-05.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A76922B1-A20F-4CC2-BB36-1A5945493D97}|ProxyApiQualtech\\ProxyApiQualtech.csproj|solutionrelative:proxyapiqualtech\\logfiles\\2024-09-05.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A76922B1-A20F-4CC2-BB36-1A5945493D97}|ProxyApiQualtech\\ProxyApiQualtech.csproj|c:\\users\\forant\\source\\repos\\proxyapiqualtech\\proxyapiqualtech\\logfiles\\2024-08-23.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A76922B1-A20F-4CC2-BB36-1A5945493D97}|ProxyApiQualtech\\ProxyApiQualtech.csproj|solutionrelative:proxyapiqualtech\\logfiles\\2024-08-23.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A76922B1-A20F-4CC2-BB36-1A5945493D97}|ProxyApiQualtech\\ProxyApiQualtech.csproj|c:\\users\\forant\\source\\repos\\proxyapiqualtech\\proxyapiqualtech\\controllers\\entrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A76922B1-A20F-4CC2-BB36-1A5945493D97}|ProxyApiQualtech\\ProxyApiQualtech.csproj|c:\\users\\antoine\\desktop\\qualtech\\gatewayapi\\proxyapiqualtech\\proxyapiqualtech\\controllers\\entrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A76922B1-A20F-4CC2-BB36-1A5945493D97}|ProxyApiQualtech\\ProxyApiQualtech.csproj|solutionrelative:proxyapiqualtech\\controllers\\entrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A76922B1-A20F-4CC2-BB36-1A5945493D97}|ProxyApiQualtech\\ProxyApiQualtech.csproj|c:\\users\\forant\\source\\repos\\proxyapiqualtech\\proxyapiqualtech\\services\\controllerentrydata\\entrydatainterpreter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A76922B1-A20F-4CC2-BB36-1A5945493D97}|ProxyApiQualtech\\ProxyApiQualtech.csproj|c:\\users\\antoine\\desktop\\qualtech\\gatewayapi\\proxyapiqualtech\\proxyapiqualtech\\services\\controllerentrydata\\entrydatainterpreter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A76922B1-A20F-4CC2-BB36-1A5945493D97}|ProxyApiQualtech\\ProxyApiQualtech.csproj|solutionrelative:proxyapiqualtech\\services\\controllerentrydata\\entrydatainterpreter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A76922B1-A20F-4CC2-BB36-1A5945493D97}|ProxyApiQualtech\\ProxyApiQualtech.csproj|c:\\users\\antoine\\desktop\\qualtech\\gatewayapi\\proxyapiqualtech\\proxyapiqualtech\\services\\backgroundservices\\serviceworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A76922B1-A20F-4CC2-BB36-1A5945493D97}|ProxyApiQualtech\\ProxyApiQualtech.csproj|solutionrelative:proxyapiqualtech\\services\\backgroundservices\\serviceworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A76922B1-A20F-4CC2-BB36-1A5945493D97}|ProxyApiQualtech\\ProxyApiQualtech.csproj|c:\\users\\antoine\\desktop\\qualtech\\gatewayapi\\proxyapiqualtech\\proxyapiqualtech\\services\\filewriter\\logfilewriter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A76922B1-A20F-4CC2-BB36-1A5945493D97}|ProxyApiQualtech\\ProxyApiQualtech.csproj|solutionrelative:proxyapiqualtech\\services\\filewriter\\logfilewriter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A76922B1-A20F-4CC2-BB36-1A5945493D97}|ProxyApiQualtech\\ProxyApiQualtech.csproj|c:\\users\\antoine\\desktop\\qualtech\\gatewayapi\\proxyapiqualtech\\proxyapiqualtech\\proxyapiqualtech.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A76922B1-A20F-4CC2-BB36-1A5945493D97}|ProxyApiQualtech\\ProxyApiQualtech.csproj|solutionrelative:proxyapiqualtech\\proxyapiqualtech.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -33,85 +37,125 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 333,
-          "SelectedChildIndex": 0,
+          "DockedWidth": 1372,
+          "SelectedChildIndex": 7,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ServiceWorker.cs",
-              "DocumentMoniker": "C:\\Users\\forant\\source\\repos\\ProxyApiQualtech\\ProxyApiQualtech\\Services\\BackGroundServices\\ServiceWorker.cs",
-              "RelativeDocumentMoniker": "ProxyApiQualtech\\Services\\BackGroundServices\\ServiceWorker.cs",
-              "ToolTip": "C:\\Users\\forant\\source\\repos\\ProxyApiQualtech\\ProxyApiQualtech\\Services\\BackGroundServices\\ServiceWorker.cs",
-              "RelativeToolTip": "ProxyApiQualtech\\Services\\BackGroundServices\\ServiceWorker.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T20:11:28.749Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EntryDataModel.cs",
-              "DocumentMoniker": "C:\\Users\\forant\\source\\repos\\ProxyApiQualtech\\ProxyApiQualtech\\Model\\EntryDataModel.cs",
-              "RelativeDocumentMoniker": "ProxyApiQualtech\\Model\\EntryDataModel.cs",
-              "ToolTip": "C:\\Users\\forant\\source\\repos\\ProxyApiQualtech\\ProxyApiQualtech\\Model\\EntryDataModel.cs",
-              "RelativeToolTip": "ProxyApiQualtech\\Model\\EntryDataModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T20:11:23.19Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "2024-09-05.txt",
-              "DocumentMoniker": "C:\\Users\\forant\\source\\repos\\ProxyApiQualtech\\ProxyApiQualtech\\LogFiles\\2024-09-05.txt",
-              "RelativeDocumentMoniker": "ProxyApiQualtech\\LogFiles\\2024-09-05.txt",
-              "ToolTip": "C:\\Users\\forant\\source\\repos\\ProxyApiQualtech\\ProxyApiQualtech\\LogFiles\\2024-09-05.txt",
-              "RelativeToolTip": "ProxyApiQualtech\\LogFiles\\2024-09-05.txt",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-09-06T20:07:26.791Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "2024-08-23.txt",
-              "DocumentMoniker": "C:\\Users\\forant\\source\\repos\\ProxyApiQualtech\\ProxyApiQualtech\\LogFiles\\2024-08-23.txt",
-              "RelativeDocumentMoniker": "ProxyApiQualtech\\LogFiles\\2024-08-23.txt",
-              "ToolTip": "C:\\Users\\forant\\source\\repos\\ProxyApiQualtech\\ProxyApiQualtech\\LogFiles\\2024-08-23.txt",
-              "RelativeToolTip": "ProxyApiQualtech\\LogFiles\\2024-08-23.txt",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-09-06T20:07:26.002Z",
+              "Title": "EntryDataInterpreter.cs",
+              "DocumentMoniker": "C:\\Users\\Antoine\\Desktop\\qualtech\\GateWayApi\\ProxyApiQualtech\\ProxyApiQualtech\\Services\\ControllerEntryData\\EntryDataInterpreter.cs",
+              "RelativeDocumentMoniker": "ProxyApiQualtech\\Services\\ControllerEntryData\\EntryDataInterpreter.cs",
+              "ToolTip": "C:\\Users\\Antoine\\Desktop\\qualtech\\GateWayApi\\ProxyApiQualtech\\ProxyApiQualtech\\Services\\ControllerEntryData\\EntryDataInterpreter.cs",
+              "RelativeToolTip": "ProxyApiQualtech\\Services\\ControllerEntryData\\EntryDataInterpreter.cs",
+              "ViewState": "AQIAAM4AAAAAAAAAAAAIwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T14:48:25.403Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "EntryController.cs",
-              "DocumentMoniker": "C:\\Users\\forant\\source\\repos\\ProxyApiQualtech\\ProxyApiQualtech\\Controllers\\EntryController.cs",
-              "RelativeDocumentMoniker": "ProxyApiQualtech\\Controllers\\EntryController.cs",
-              "ToolTip": "C:\\Users\\forant\\source\\repos\\ProxyApiQualtech\\ProxyApiQualtech\\Controllers\\EntryController.cs",
-              "RelativeToolTip": "ProxyApiQualtech\\Controllers\\EntryController.cs",
-              "ViewState": "AQIAAHAAAAAAAAAAAAAYwDcAAAAMAAAA",
+              "Title": "ServiceWorker.cs",
+              "DocumentMoniker": "C:\\Users\\Antoine\\Desktop\\qualtech\\GateWayApi\\ProxyApiQualtech\\ProxyApiQualtech\\Services\\BackGroundServices\\ServiceWorker.cs",
+              "RelativeDocumentMoniker": "ProxyApiQualtech\\Services\\BackGroundServices\\ServiceWorker.cs",
+              "ToolTip": "C:\\Users\\Antoine\\Desktop\\qualtech\\GateWayApi\\ProxyApiQualtech\\ProxyApiQualtech\\Services\\BackGroundServices\\ServiceWorker.cs",
+              "RelativeToolTip": "ProxyApiQualtech\\Services\\BackGroundServices\\ServiceWorker.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T19:27:12.711Z",
+              "WhenOpened": "2024-09-13T14:48:22.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProxyApiQualtech",
+              "DocumentMoniker": "C:\\Users\\Antoine\\Desktop\\qualtech\\GateWayApi\\ProxyApiQualtech\\ProxyApiQualtech\\ProxyApiQualtech.csproj",
+              "RelativeDocumentMoniker": "ProxyApiQualtech\\ProxyApiQualtech.csproj",
+              "ToolTip": "C:\\Users\\Antoine\\Desktop\\qualtech\\GateWayApi\\ProxyApiQualtech\\ProxyApiQualtech\\ProxyApiQualtech.csproj",
+              "RelativeToolTip": "ProxyApiQualtech\\ProxyApiQualtech.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-13T14:32:32.03Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "EntryDataInterpreter.cs",
-              "DocumentMoniker": "C:\\Users\\forant\\source\\repos\\ProxyApiQualtech\\ProxyApiQualtech\\Services\\ControllerEntryData\\EntryDataInterpreter.cs",
-              "RelativeDocumentMoniker": "ProxyApiQualtech\\Services\\ControllerEntryData\\EntryDataInterpreter.cs",
-              "ToolTip": "C:\\Users\\forant\\source\\repos\\ProxyApiQualtech\\ProxyApiQualtech\\Services\\ControllerEntryData\\EntryDataInterpreter.cs",
-              "RelativeToolTip": "ProxyApiQualtech\\Services\\ControllerEntryData\\EntryDataInterpreter.cs",
-              "ViewState": "AQIAAG4AAAAAAAAAAAAnwD0AAAAQAAAA",
+              "Title": "LogFileWriter.cs",
+              "DocumentMoniker": "C:\\Users\\Antoine\\Desktop\\qualtech\\GateWayApi\\ProxyApiQualtech\\ProxyApiQualtech\\Services\\FileWriter\\LogFileWriter.cs",
+              "RelativeDocumentMoniker": "ProxyApiQualtech\\Services\\FileWriter\\LogFileWriter.cs",
+              "ToolTip": "C:\\Users\\Antoine\\Desktop\\qualtech\\GateWayApi\\ProxyApiQualtech\\ProxyApiQualtech\\Services\\FileWriter\\LogFileWriter.cs",
+              "RelativeToolTip": "ProxyApiQualtech\\Services\\FileWriter\\LogFileWriter.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwDAAAABfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T18:44:51.454Z"
+              "WhenOpened": "2024-09-13T14:10:11.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Antoine\\Desktop\\qualtech\\GateWayApi\\ProxyApiQualtech\\ProxyApiQualtech\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "ProxyApiQualtech\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Antoine\\Desktop\\qualtech\\GateWayApi\\ProxyApiQualtech\\ProxyApiQualtech\\appsettings.Development.json",
+              "RelativeToolTip": "ProxyApiQualtech\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-13T13:55:49.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EntryController.cs",
+              "DocumentMoniker": "C:\\Users\\Antoine\\Desktop\\qualtech\\GateWayApi\\ProxyApiQualtech\\ProxyApiQualtech\\Controllers\\EntryController.cs",
+              "RelativeDocumentMoniker": "ProxyApiQualtech\\Controllers\\EntryController.cs",
+              "ToolTip": "C:\\Users\\Antoine\\Desktop\\qualtech\\GateWayApi\\ProxyApiQualtech\\ProxyApiQualtech\\Controllers\\EntryController.cs",
+              "RelativeToolTip": "ProxyApiQualtech\\Controllers\\EntryController.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAowDUAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T13:05:29.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Antoine\\Desktop\\qualtech\\GateWayApi\\ProxyApiQualtech\\ProxyApiQualtech\\Program.cs",
+              "RelativeDocumentMoniker": "ProxyApiQualtech\\Program.cs",
+              "ToolTip": "C:\\Users\\Antoine\\Desktop\\qualtech\\GateWayApi\\ProxyApiQualtech\\ProxyApiQualtech\\Program.cs",
+              "RelativeToolTip": "ProxyApiQualtech\\Program.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAAuwEsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T12:47:01.153Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 217,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{28836128-fc2c-11d2-a433-00c04f72d18a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }

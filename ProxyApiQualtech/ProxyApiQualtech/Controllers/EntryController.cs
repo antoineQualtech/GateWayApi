@@ -5,6 +5,7 @@ using Microsoft.Extensions.Configuration;
 using ProxyApiQualtech.Model;
 using ProxyApiQualtech.Services.ControllerEntryData;
 using ProxyApiQualtech.Services.FileWriter;
+using System.Diagnostics;
 using System.Linq;
 using System.Net;
 using System.Text.Json;
@@ -21,12 +22,14 @@ namespace ProxyApiQualtech.Controllers
         private IEntryDataInterpreter _interpreter;
         private IFileWriter _filewriter;
         private readonly IConfiguration _config;
+        private readonly ILogger<EntryController> _logger;
 
-        public EntryController(IEntryDataInterpreter interpreter, IConfiguration configuration,IFileWriter fileWriter)
+        public EntryController(IEntryDataInterpreter interpreter, IConfiguration configuration,IFileWriter fileWriter, ILogger<EntryController> logger)
         {
             _interpreter = interpreter;
             _config = configuration;
             _filewriter = fileWriter;
+            _logger = logger;
         }
         //url api epicor 10.4.100.93:443
 
@@ -47,6 +50,8 @@ namespace ProxyApiQualtech.Controllers
 
             Console.BackgroundColor = ConsoleColor.Yellow;
             Console.ForegroundColor = ConsoleColor.Black;
+
+            //_logger.LogInformation("At " + DateTime.Now + " accessed entry point on: " + iplocal + ":" + portlocal + " from: " + ipDist + ":" + portDist +"\n"+ "At " + DateTime.Now + ipDist + ":" + portDist + " accessed api point " + entryData.UrlEndPoint);
             Console.WriteLine("");
             Console.WriteLine("At " + DateTime.Now + " accessed entry point on: " + iplocal + ":" + portlocal + " from: " + ipDist + ":" + portDist);
             Console.WriteLine("At " + DateTime.Now + ipDist + ":" + portDist + " accessed api point " + entryData.UrlEndPoint);
@@ -152,11 +157,30 @@ namespace ProxyApiQualtech.Controllers
         /// Permet de tester temporairement l'api
         /// </summary>
         /// <returns></returns>
-       /* [HttpGet("[action]")]
+        [HttpGet("[action]")]
         public async Task<IActionResult> Test()
         {
-            string ret = await _interpreter.GenerateEpicorApiBearer("erppilot");
-            return Ok(ret);
-        }*/
+            if (!EventLog.SourceExists("ApiGatewayCustomLogs"))
+            {
+                EventLog.CreateEventSource("ApiGatewayCustomLogs", "Application");
+            }
+            EventLog.WriteEntry("ApiGatewayCustomLogs", "test", EventLogEntryType.Information);
+            try {
+
+                _filewriter.WriteLogFile("test " + DateTime.Now);
+            }
+            catch(Exception e)
+            {
+                if (!EventLog.SourceExists("ApiGatewayCustomLogs"))
+                {
+                    EventLog.CreateEventSource("ApiGatewayCustomLogs", "Application");
+                }
+                EventLog.WriteEntry("ApiGatewayCustomLogs", e.Message, EventLogEntryType.Information);
+            }
+            _filewriter.WriteLogFile("test " + DateTime.Now);
+
+            //string ret = await _interpreter.GenerateEpicorApiBearer("erppilot");
+            return Ok("test");
+        }
     }
 }

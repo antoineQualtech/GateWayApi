@@ -19,7 +19,7 @@ namespace ProxyApiQualtech.Services.BackGroundServices
             {
                 Logger.LogInformation("Serviceworker travaille");
 
-                await Task.Delay(TimeSpan.FromSeconds(1000000), stoppingToken);
+                await Task.Delay(TimeSpan.FromSeconds(10), stoppingToken);
             }
 
             Logger.LogInformation("Serviceworker est arrêté");
