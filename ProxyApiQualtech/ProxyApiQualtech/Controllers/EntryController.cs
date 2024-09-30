@@ -123,7 +123,7 @@ namespace ProxyApiQualtech.Controllers
 
                     if (httpStatus >= 400)
                     {
-                        if (root.TryGetProperty("ReasonPhrase", out JsonElement reasonPhraseElement))
+                        if (root.TryGetProperty("ErrorMessage", out JsonElement reasonPhraseElement))
                         {
                             string reasonPhrase = reasonPhraseElement.GetString();
                             return BadRequest(reasonPhrase);
@@ -160,7 +160,7 @@ namespace ProxyApiQualtech.Controllers
         [HttpGet("[action]")]
         public async Task<IActionResult> Test()
         {
-            if (!EventLog.SourceExists("ApiGatewayCustomLogs"))
+           /* if (!EventLog.SourceExists("ApiGatewayCustomLogs"))
             {
                 EventLog.CreateEventSource("ApiGatewayCustomLogs", "Application");
             }
@@ -179,7 +179,7 @@ namespace ProxyApiQualtech.Controllers
             }
             _filewriter.WriteLogFile("test " + DateTime.Now);
 
-            //string ret = await _interpreter.GenerateEpicorApiBearer("erppilot");
+            //string ret = await _interpreter.GenerateEpicorApiBearer("erppilot");*/
             return Ok("test");
         }
     }
