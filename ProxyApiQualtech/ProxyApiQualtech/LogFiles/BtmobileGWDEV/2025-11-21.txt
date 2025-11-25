@@ -1,0 +1,87 @@
+
+At 2025-11-21 08:30:39 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:57717
+At 2025-11-21 08:30:39::ffff:127.0.0.1:57717 accessed api point https://qbcdeverpapp.qualtech.int/ERPPilot/api/v2/efx/QS/BTMobileImport/GetExchangeRate
+
+At 2025-11-21 08:30:39 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:57717
+At 2025-11-21 08:30:39::ffff:127.0.0.1:57717 accessed api point https://qbcdeverpapp.qualtech.int/ERPPilot/api/v2/efx/QS/BTMobileImport/GetExchangeRate
+
+At 2025-11-21 08:30:39 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:57722
+At 2025-11-21 08:30:39::ffff:127.0.0.1:57722 accessed api point https://qbcdeverpapp.qualtech.int/ERPPilot/api/v2/efx/QS/BTMobileImport/GetExchangeRate
+
+At 2025-11-21 08:30:40 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:57722
+At 2025-11-21 08:30:40::ffff:127.0.0.1:57722 accessed api point https://qbcdeverpapp.qualtech.int/ERPPilot/api/v2/efx/QS/BTMobileImport/GetExchangeRate
+
+At 2025-11-21 08:36:17 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:60735
+At 2025-11-21 08:36:17::ffff:127.0.0.1:60735 accessed api point https://qbcdeverpapp.qualtech.int/ERPPilot/api/v2/efx/QS/BTMobileImport/GetExchangeRate
+
+At 2025-11-21 08:36:17 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:60735
+At 2025-11-21 08:36:17::ffff:127.0.0.1:60735 accessed api point https://qbcdeverpapp.qualtech.int/ERPPilot/api/v2/efx/QS/BTMobileImport/GetExchangeRate
+
+At 2025-11-21 08:36:17 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:60740
+At 2025-11-21 08:36:17::ffff:127.0.0.1:60740 accessed api point https://qbcdeverpapp.qualtech.int/ERPPilot/api/v2/efx/QS/BTMobileImport/GetExchangeRate
+
+At 2025-11-21 08:36:17 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:60740
+At 2025-11-21 08:36:17::ffff:127.0.0.1:60740 accessed api point https://qbcdeverpapp.qualtech.int/ERPPilot/api/v2/efx/QS/BTMobileImport/GetExchangeRate
+
+At 2025-11-21 08:40:30 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:49773
+At 2025-11-21 08:40:30::ffff:127.0.0.1:49773 accessed api point https://qbcdeverpapp.qualtech.int/ERPPilot/api/v2/efx/QS/BTMobileImport/GetExchangeRate
+
+At 2025-11-21 08:40:30 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:49773
+At 2025-11-21 08:40:30::ffff:127.0.0.1:49773 accessed api point https://qbcdeverpapp.qualtech.int/ERPPilot/api/v2/efx/QS/BTMobileImport/GetExchangeRate
+
+At 2025-11-21 08:40:30 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:49778
+At 2025-11-21 08:40:30::ffff:127.0.0.1:49778 accessed api point https://qbcdeverpapp.qualtech.int/ERPPilot/api/v2/efx/QS/BTMobileImport/GetExchangeRate
+
+At 2025-11-21 08:40:30 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:49778
+At 2025-11-21 08:40:30::ffff:127.0.0.1:49778 accessed api point https://qbcdeverpapp.qualtech.int/ERPPilot/api/v2/efx/QS/BTMobileImport/GetExchangeRate
+
+At 2025-11-21 08:41:05 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:51257
+At 2025-11-21 08:41:05::ffff:127.0.0.1:51257 accessed api point https://qbcdeverpapp.qualtech.int/ERPPilot/api/v2/efx/QS/BTMobileImport/CreateExpense
+
+At 2025-11-21 08:41:05 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:51260
+At 2025-11-21 08:41:05::ffff:127.0.0.1:51260 accessed api point https://qbcdeverpapp.qualtech.int/ERPPilot/api/v2/efx/QS/BTMobileImport/CreateExpense
+[2025-11-21 08:41:07] ERROR 502 - INTERNAL_GATEWAY_ERROR - The gateway did not receive a valid response from the internal service. : {"HttpStatus":400,"ReasonPhrase":"REST API Exception","ErrorMessage":"Invalid Tax Liability.","ErrorType":"Ice.BLException","ErrorDetails":[{"Message":"Invalid Tax Liability.","Type":"Error","Program":"efx.btmobileimport.dll","Method":"Run"}],"CorrelationId":"4659c46e-e65a-4c31-bac9-ab9f708f7c76"} | IP=::ffff:127.0.0.1 | Endpoint=/Entry/EntryPoint | TraceId=0HNH908KHQSL6:00000001
+
+At 2025-11-21 08:41:07 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:51263
+At 2025-11-21 08:41:07::ffff:127.0.0.1:51263 accessed api point https://qbcdeverpapp.qualtech.int/ERPPilot/api/v2/efx/QS/BTMobileImport/CreateExpense
+[2025-11-21 08:41:07] ERROR 502 - INTERNAL_GATEWAY_ERROR - The gateway did not receive a valid response from the internal service. : {"HttpStatus":400,"ReasonPhrase":"REST API Exception","ErrorMessage":"Closed Project.","ErrorType":"Ice.BLException","ErrorDetails":[{"Message":"Closed Project.","Type":"Error","Program":"efx.btmobileimport.dll","Method":"Run"}],"CorrelationId":"54c72348-2cd7-4ef7-b559-b6d29c48d3e1"} | IP=::ffff:127.0.0.1 | Endpoint=/Entry/EntryPoint | TraceId=0HNH908KHQSL7:00000001
+
+At 2025-11-21 08:41:07 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:51266
+At 2025-11-21 08:41:07::ffff:127.0.0.1:51266 accessed api point https://qbcdeverpapp.qualtech.int/ERPPilot/api/v2/efx/QS/BTMobileImport/CreateExpense
+
+At 2025-11-21 08:41:10 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:51269
+At 2025-11-21 08:41:10::ffff:127.0.0.1:51269 accessed api point https://qbcdeverpapp.qualtech.int/ERPPilot/api/v2/efx/QS/BTMobileImport/CreateExpense
+
+At 2025-11-21 08:41:11 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:51272
+At 2025-11-21 08:41:11::ffff:127.0.0.1:51272 accessed api point https://qbcdeverpapp.qualtech.int/ERPPilot/api/v2/efx/QS/BTMobileImport/CreateExpense
+
+At 2025-11-21 08:41:16 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:51277
+At 2025-11-21 08:41:16::ffff:127.0.0.1:51277 accessed api point https://qbcdeverpapp.qualtech.int/ERPPilot/api/v2/efx/QS/BTMobileImport/GetExchangeRate
+
+At 2025-11-21 08:41:16 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:51277
+At 2025-11-21 08:41:16::ffff:127.0.0.1:51277 accessed api point https://qbcdeverpapp.qualtech.int/ERPPilot/api/v2/efx/QS/BTMobileImport/GetExchangeRate
+
+At 2025-11-21 08:41:16 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:51282
+At 2025-11-21 08:41:16::ffff:127.0.0.1:51282 accessed api point https://qbcdeverpapp.qualtech.int/ERPPilot/api/v2/efx/QS/BTMobileImport/GetExchangeRate
+
+At 2025-11-21 08:41:16 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:51282
+At 2025-11-21 08:41:16::ffff:127.0.0.1:51282 accessed api point https://qbcdeverpapp.qualtech.int/ERPPilot/api/v2/efx/QS/BTMobileImport/GetExchangeRate
+
+At 2025-11-21 08:41:42 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:62546
+At 2025-11-21 08:41:42::ffff:127.0.0.1:62546 accessed api point https://qbcdeverpapp.qualtech.int/ERPPilot/api/v2/efx/QS/BTMobileImport/CreateExpense
+
+At 2025-11-21 08:41:43 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:62549
+At 2025-11-21 08:41:43::ffff:127.0.0.1:62549 accessed api point https://qbcdeverpapp.qualtech.int/ERPPilot/api/v2/efx/QS/BTMobileImport/CreateExpense
+[2025-11-21 08:41:43] ERROR 502 - INTERNAL_GATEWAY_ERROR - The gateway did not receive a valid response from the internal service. : {"HttpStatus":400,"ReasonPhrase":"REST API Exception","ErrorMessage":"Closed Project.","ErrorType":"Ice.BLException","ErrorDetails":[{"Message":"Closed Project.","Type":"Error","Program":"efx.btmobileimport.dll","Method":"Run"}],"CorrelationId":"4b4dec28-5fbc-4704-bad9-97a477586f97"} | IP=::ffff:127.0.0.1 | Endpoint=/Entry/EntryPoint | TraceId=0HNH908KHQSLE:00000001
+
+At 2025-11-21 08:41:48 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:62554
+At 2025-11-21 08:41:48::ffff:127.0.0.1:62554 accessed api point https://qbcdeverpapp.qualtech.int/ERPPilot/api/v2/efx/QS/BTMobileImport/GetExchangeRate
+
+At 2025-11-21 08:41:48 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:62554
+At 2025-11-21 08:41:48::ffff:127.0.0.1:62554 accessed api point https://qbcdeverpapp.qualtech.int/ERPPilot/api/v2/efx/QS/BTMobileImport/GetExchangeRate
+
+At 2025-11-21 08:41:48 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:62559
+At 2025-11-21 08:41:48::ffff:127.0.0.1:62559 accessed api point https://qbcdeverpapp.qualtech.int/ERPPilot/api/v2/efx/QS/BTMobileImport/GetExchangeRate
+
+At 2025-11-21 08:41:49 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:62559
+At 2025-11-21 08:41:49::ffff:127.0.0.1:62559 accessed api point https://qbcdeverpapp.qualtech.int/ERPPilot/api/v2/efx/QS/BTMobileImport/GetExchangeRate

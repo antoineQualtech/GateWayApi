@@ -1,0 +1,10 @@
+
+At 2025-11-19 07:42:38 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:63796
+At 2025-11-19 07:42:38::ffff:127.0.0.1:63796 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/CreateExpense
+Something went wrong handling de request close connexion 2025-11-19 07:42:41
+
+At 2025-11-19 07:43:57 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:58933
+At 2025-11-19 07:43:57::ffff:127.0.0.1:58933 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/CreateExpense
+
+At 2025-11-19 07:46:54 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:49165
+At 2025-11-19 07:46:54::ffff:127.0.0.1:49165 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/CreateExpense

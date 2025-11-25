@@ -60,87 +60,71 @@ namespace ProxyApiQualtech.Controllers
             //ip null on ferme
             if (ipDist == null)
             {
-                Console.WriteLine("Ip invalid close connexion " + DateTime.Now );
-                _filewriter.WriteLogFile("Ip invalid close connexion " + DateTime.Now);
-                return Unauthorized("Ip invalid");
+                return ErrorResult(
+                    StatusCodes.Status400BadRequest,
+                    "INVALID_CLIENT_IP",
+                    "Client IP address could not be determined."
+                );
             }
 
             //if api key est null on ferme
-            if (apikey == null)
+            if (apikey != _config["API_KEY"]?.ToString())
             {
-                Console.WriteLine("Apikey invalid close connexion " + DateTime.Now);
-                _filewriter.WriteLogFile("Apikey invalid close connexion " + DateTime.Now);
-                return Unauthorized("Apikey invalid");
+                return ErrorResult(
+                    StatusCodes.Status401Unauthorized,
+                    "MISSING_API_KEY",
+                    "The API key header (API_KEY) is required."
+                );
             }
 
             //validation api key
             if (apikey != _config["API_KEY"].ToString())
             {
-                Console.WriteLine("Apikey invalid close connexion " + DateTime.Now);
-                _filewriter.WriteLogFile("Apikey invalid close connexion " + DateTime.Now);
-                return Unauthorized("Apikey invalid");
+                return ErrorResult(
+                    StatusCodes.Status401Unauthorized,
+                    "INVALID_API_KEY",
+                    "The provided API key is invalid."
+                );
             }
 
             //si entry data null on ferme
-            if (entryData == null) {
-                Console.WriteLine("Entry Data invalid close connexion " + DateTime.Now);
-                _filewriter.WriteLogFile("Entry Data invalid close connexion " + DateTime.Now);
-                return BadRequest("EntryData invalid");
-               
+            if (entryData == null)
+            {
+                return ErrorResult(
+                    StatusCodes.Status400BadRequest,
+                    "INVALID_ENTRY_DATA",
+                    "The request body (EntryData) is required and could not be parsed."
+                );
             }
 
             List<string> list = _config.GetSection("AllowedEpicorEndpoints").Get<List<string>>();
             //vérifie si l'url de destination est white listé
-            if (!list.Any(listItem=> entryData.UrlEndPoint.Contains(listItem)))
+            if (!list.Any(listItem => entryData.UrlEndPoint.Contains(listItem)))
             {
-                Console.WriteLine("Endpoint not whitelisted close connexion   "+ entryData.UrlEndPoint+ " " + DateTime.Now);
-                _filewriter.WriteLogFile("Endpoint not whitelisted close connexion  " + entryData.UrlEndPoint+" " + DateTime.Now);
-                return Unauthorized("Endpoint not whitelisted");
+                return ErrorResult(
+                    StatusCodes.Status403Forbidden,
+                    "ENDPOINT_NOT_WHITELISTED",
+                    "The requested endpoint is not allowed by the gateway.",
+                    new { requestedEndpoint = entryData.UrlEndPoint }
+                );
+            }
+
+            if (entryData.UrlEndPoint.Contains("BTMobileDataEntryMsSql"))
+            {
+               // _filewriter.WriteLogFile("SalesOrderSvc endpoint accessed " + entryData.UrlEndPoint + " " + DateTime.Now);
             }
 
             //envoyer la requête à l'interne et attendre le retour
-            var retData = await _interpreter.QualtechInternalHttpRequester(entryData);
+            QualtechInternalHttpRequesterResponse retData = await _interpreter.QualtechInternalHttpRequester(entryData);
 
             //si retData null on ferme
-            if (retData == null)
+            if (retData.IsSuccess == false )
             {
-                Console.WriteLine("Something went wrong handling de request close connexion " + DateTime.Now);
-                _filewriter.WriteLogFile("Something went wrong handling de request close connexion " + DateTime.Now);
-                return BadRequest("EntryData invalid");
-            }
-
-            //si un erreur http 400 ou plus grand
-            try
-            {
-                var jsonDoc = JsonDocument.Parse(retData);
-                var root = jsonDoc.RootElement;
-
-                // Extract the HttpStatus, ReasonPhrase, and ErrorMessage
-    
-                if (root.TryGetProperty("HttpStatus", out JsonElement httpStatusElement))
-                {
-                    int httpStatus = httpStatusElement.GetInt32();
-
-                    if (httpStatus >= 400)
-                    {
-                        if (root.TryGetProperty("ErrorMessage", out JsonElement reasonPhraseElement))
-                        {
-                            string reasonPhrase = reasonPhraseElement.GetString();
-                            return BadRequest(reasonPhrase);
-                        }
-                        else
-                        {
-                            // Handle case where ReasonPhrase is missing
-                            return BadRequest("Error occurred but no reason provided.");
-                        }
-                    }
-                }
-               
-            }
-            catch (Exception ex) {
-                Console.WriteLine("Something went wrong handling de request close connexion " + DateTime.Now);
-                _filewriter.WriteLogFile("Something went wrong handling de request close connexion " + DateTime.Now);
-                return BadRequest("EntryData invalid");
+                return ErrorResult(
+                    StatusCodes.Status502BadGateway,
+                    "INTERNAL_GATEWAY_ERROR",
+                    "The gateway did not receive a valid response from the internal service. : " +retData.ResponseData
+                );
             }
 
             Console.BackgroundColor = ConsoleColor.Magenta;
@@ -150,7 +134,7 @@ namespace ProxyApiQualtech.Controllers
             Console.ResetColor();
             Console.WriteLine("");
 
-            return Ok(retData);
+            return Ok(retData.ResponseData);
         }
 
         /// <summary>
@@ -182,5 +166,44 @@ namespace ProxyApiQualtech.Controllers
             //string ret = await _interpreter.GenerateEpicorApiBearer("erppilot");*/
             return Ok("test");
         }
+
+        // Helper method for consistent error payloads + logging
+        private IActionResult ErrorResult(int statusCode, string errorCode, string message, object? details = null)
+        {
+            string clientIp = HttpContext.Connection.RemoteIpAddress?.ToString() ?? "unknown";
+            string endpoint = HttpContext.Request.Path;
+            string traceId = HttpContext.TraceIdentifier;
+
+            // Build the structured error payload
+            
+
+            // Log to file
+            _filewriter.WriteLogFile(
+                $"[{DateTime.Now}] ERROR {statusCode} - {errorCode} - {message} | IP={clientIp} | Endpoint={endpoint} | TraceId={traceId}"
+            );
+
+            // Log to event logger
+            _logger.LogWarning("GatewayError {@payload}", message);
+
+            return StatusCode(statusCode, message);
+        }
+
+
+        // Helper for success result + logging
+        private IActionResult SuccessResult(object result)
+        {
+            string clientIp = HttpContext.Connection.RemoteIpAddress?.ToString() ?? "unknown";
+            string endpoint = HttpContext.Request.Path;
+            string traceId = HttpContext.TraceIdentifier;
+
+            _filewriter.WriteLogFile(
+                $"[{DateTime.Now}] SUCCESS 200 | IP={clientIp} | Endpoint={endpoint} | TraceId={traceId}"
+            );
+
+            _logger.LogInformation("GatewaySuccess {@result}", result);
+
+            return Ok(result);
+        }
+
     }
 }

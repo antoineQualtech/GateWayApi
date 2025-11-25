@@ -11,7 +11,7 @@ var builder = WebApplication.CreateBuilder(args);
 //lancer sur port spécifié
 builder.WebHost.ConfigureKestrel(serverOptions =>
 {
-    serverOptions.ListenAnyIP(5204); // http
+    serverOptions.ListenAnyIP(5205); // http
 }); 
 
 builder.Services.AddControllers();
@@ -28,6 +28,7 @@ builder.Logging.AddEventLog(loggingBuilder =>
 {
     loggingBuilder.SourceName = "GateWayApiLogs";
 });
+
 /*
 LoggerProviderOptions.RegisterProviderOptions<EventLogSettings, EventLogLoggerProvider>(builder.Services);
 builder.Services.AddHostedService<ServiceWorker>();
@@ -39,7 +40,7 @@ builder.Services.AddRateLimiter(_ =>
 {
     _.AddFixedWindowLimiter(policyName: "fixed", options =>
     {
-        options.PermitLimit = 2000;
+        options.PermitLimit = 4000;
         options.Window = TimeSpan.FromSeconds(60);
     });
     _.RejectionStatusCode = 503;

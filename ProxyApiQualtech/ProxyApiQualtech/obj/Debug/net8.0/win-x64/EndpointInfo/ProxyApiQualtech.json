@@ -1,0 +1,117 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "ProxyApiQualtech",
+    "version": "1.0"
+  },
+  "paths": {
+    "/Entry/EntryPoint": {
+      "post": {
+        "tags": [
+          "Entry"
+        ],
+        "parameters": [
+          {
+            "name": "API_KEY",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EntryDataModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EntryDataModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/EntryDataModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Entry/Test": {
+      "get": {
+        "tags": [
+          "Entry"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/": {
+      "get": {
+        "tags": [
+          "ProxyApiQualtech"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "EntryDataModel": {
+        "type": "object",
+        "properties": {
+          "isEpicorApiEndPoint": {
+            "type": "boolean"
+          },
+          "epicorEnvironnement": {
+            "type": "string",
+            "nullable": true
+          },
+          "urlEndPoint": {
+            "type": "string",
+            "nullable": true
+          },
+          "internalRequestHeaders": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "requestBody": {
+            "type": "object",
+            "additionalProperties": { },
+            "nullable": true
+          },
+          "requestType": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

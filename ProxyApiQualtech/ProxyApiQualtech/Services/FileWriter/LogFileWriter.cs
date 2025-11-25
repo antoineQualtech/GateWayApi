@@ -6,13 +6,15 @@ namespace ProxyApiQualtech.Services.FileWriter
 {
     public class LogFileWriter : IFileWriter
     {
-        public LogFileWriter()
+        private readonly IConfiguration _config;
+        public LogFileWriter(IConfiguration configuration)
         {
-            if (!EventLog.SourceExists("ApiGatewayCustomLogs"))
+            _config = configuration;
+            /*if (!EventLog.SourceExists("ApiGatewayCustomLogs"))
             {
                 EventLog.CreateEventSource("ApiGatewayCustomLogs", "Application");
             }
-            EventLog.WriteEntry("ApiGatewayCustomLogs", "Emplacement des logs " + Path.Combine(Directory.GetCurrentDirectory(), "LogFiles"), EventLogEntryType.Information);
+            EventLog.WriteEntry("ApiGatewayCustomLogs", "Emplacement des logs " + Path.Combine(Directory.GetCurrentDirectory(), "LogFiles"), EventLogEntryType.Information);*/
         }
 
         public void WriteLogFile(string logMessage)
@@ -22,7 +24,7 @@ namespace ProxyApiQualtech.Services.FileWriter
 
                 // Determine the root directory and log files directory
                 string rootDirectory = Directory.GetCurrentDirectory();
-                string logFilesDirectory = Path.Combine(rootDirectory, "LogFiles");
+                string logFilesDirectory = Path.Combine(rootDirectory, "LogFiles", this._config["ServiceName"].ToString());
 
                 // Ensure the LogFiles directory exists
                 if (!Directory.Exists(logFilesDirectory))
@@ -42,11 +44,11 @@ namespace ProxyApiQualtech.Services.FileWriter
                 }
             }catch(Exception ex)
             {
-                if (!EventLog.SourceExists("ApiGatewayCustomLogs"))
+                if (!EventLog.SourceExists(this._config["ServiceName"].ToString()))
                 {
-                    EventLog.CreateEventSource("ApiGatewayCustomLogs", "Application");
+                    EventLog.CreateEventSource(this._config["ServiceName"].ToString(), "Application");
                 }
-                EventLog.WriteEntry("ApiGatewayCustomLogs", ex.Message, EventLogEntryType.Error);
+                EventLog.WriteEntry(this._config["ServiceName"].ToString(), ex.Message, EventLogEntryType.Error);
             }
         }
     }

@@ -1,0 +1,138 @@
+
+At 2025-11-18 16:53:08 accessed entry point on: ::ffff:127.0.0.1:5204 from: ::ffff:127.0.0.1:63012
+At 2025-11-18 16:53:08::ffff:127.0.0.1:63012 accessed api point https://
+Endpoint not whitelisted close connexion  https:// 2025-11-18 16:53:08
+
+At 2025-11-18 16:53:08 accessed entry point on: ::ffff:127.0.0.1:5204 from: ::ffff:127.0.0.1:63013
+At 2025-11-18 16:53:08::ffff:127.0.0.1:63013 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetPlantByCustomerID
+Something went wrong handling de request close connexion 2025-11-18 16:53:08
+
+At 2025-11-18 16:58:00 accessed entry point on: ::ffff:127.0.0.1:5204 from: ::ffff:127.0.0.1:61826
+At 2025-11-18 16:58:00::ffff:127.0.0.1:61826 accessed api point https://
+Endpoint not whitelisted close connexion  https:// 2025-11-18 16:58:00
+
+At 2025-11-18 16:58:00 accessed entry point on: ::ffff:127.0.0.1:5204 from: ::ffff:127.0.0.1:61827
+At 2025-11-18 16:58:00::ffff:127.0.0.1:61827 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetPlantByCustomerID
+Something went wrong handling de request close connexion 2025-11-18 16:58:00
+
+At 2025-11-18 16:58:40 accessed entry point on: ::ffff:127.0.0.1:5204 from: ::ffff:127.0.0.1:63650
+At 2025-11-18 16:58:40::ffff:127.0.0.1:63650 accessed api point https://
+Endpoint not whitelisted close connexion  https:// 2025-11-18 16:58:40
+
+At 2025-11-18 16:58:40 accessed entry point on: ::ffff:127.0.0.1:5204 from: ::ffff:127.0.0.1:63651
+At 2025-11-18 16:58:40::ffff:127.0.0.1:63651 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetPlantByCustomerID
+Something went wrong handling de request close connexion 2025-11-18 16:58:40
+
+At 2025-11-18 16:59:02 accessed entry point on: ::ffff:127.0.0.1:5204 from: ::ffff:127.0.0.1:63655
+At 2025-11-18 16:59:02::ffff:127.0.0.1:63655 accessed api point https://
+Endpoint not whitelisted close connexion  https:// 2025-11-18 16:59:10
+
+At 2025-11-18 16:59:10 accessed entry point on: ::ffff:127.0.0.1:5204 from: ::ffff:127.0.0.1:63658
+At 2025-11-18 16:59:10::ffff:127.0.0.1:63658 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetPlantByCustomerID
+Something went wrong handling de request close connexion 2025-11-18 16:59:40
+
+At 2025-11-18 17:00:48 accessed entry point on: ::ffff:127.0.0.1:5204 from: ::ffff:127.0.0.1:60735
+At 2025-11-18 17:00:48::ffff:127.0.0.1:60735 accessed api point https://
+Endpoint not whitelisted close connexion  https:// 2025-11-18 17:00:58
+
+At 2025-11-18 17:01:04 accessed entry point on: ::ffff:127.0.0.1:5204 from: ::ffff:127.0.0.1:60736
+At 2025-11-18 17:01:04::ffff:127.0.0.1:60736 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetPlantByCustomerID
+
+At 2025-11-18 17:20:53 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:64616
+At 2025-11-18 17:20:53::ffff:127.0.0.1:64616 accessed api point https://
+Endpoint not whitelisted close connexion  https:// 2025-11-18 17:20:56
+
+At 2025-11-18 17:20:56 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:64617
+At 2025-11-18 17:20:56::ffff:127.0.0.1:64617 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetPlantByCustomerID
+
+At 2025-11-18 17:21:46 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:61525
+At 2025-11-18 17:21:46::ffff:127.0.0.1:61525 accessed api point https://
+Endpoint not whitelisted close connexion  https:// 2025-11-18 17:21:46
+
+At 2025-11-18 17:21:46 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:61526
+At 2025-11-18 17:21:46::ffff:127.0.0.1:61526 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetPlantByCustomerID
+Something went wrong handling de request close connexion 2025-11-18 17:21:48
+
+At 2025-11-18 17:22:26 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:64830
+At 2025-11-18 17:22:26::ffff:127.0.0.1:64830 accessed api point https://
+Endpoint not whitelisted close connexion  https:// 2025-11-18 17:22:26
+
+At 2025-11-18 17:22:26 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:64831
+At 2025-11-18 17:22:26::ffff:127.0.0.1:64831 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetPlantByCustomerID
+Something went wrong handling de request close connexion 2025-11-18 17:22:42
+
+At 2025-11-18 17:24:27 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:63455
+At 2025-11-18 17:24:27::ffff:127.0.0.1:63455 accessed api point https://
+Endpoint not whitelisted close connexion  https:// 2025-11-18 17:24:27
+
+At 2025-11-18 17:24:28 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:63456
+At 2025-11-18 17:24:28::ffff:127.0.0.1:63456 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetPlantByCustomerID
+
+At 2025-11-18 17:27:14 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:54954
+At 2025-11-18 17:27:14::ffff:127.0.0.1:54954 accessed api point https://
+Endpoint not whitelisted close connexion  https:// 2025-11-18 17:27:14
+
+At 2025-11-18 17:27:14 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:54955
+At 2025-11-18 17:27:14::ffff:127.0.0.1:54955 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetPlantByCustomerID
+
+At 2025-11-18 17:29:20 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:53449
+At 2025-11-18 17:29:20::ffff:127.0.0.1:53449 accessed api point https://
+Endpoint not whitelisted close connexion  https:// 2025-11-18 17:29:20
+
+At 2025-11-18 17:29:20 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:53450
+At 2025-11-18 17:29:20::ffff:127.0.0.1:53450 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetPlantByCustomerID
+
+At 2025-11-18 17:29:21 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:53453
+At 2025-11-18 17:29:21::ffff:127.0.0.1:53453 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetEmployeeDataBase
+
+At 2025-11-18 17:29:21 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:53457
+At 2025-11-18 17:29:21::ffff:127.0.0.1:53457 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/odata/QS/Erp.BO.EmpBasicSvc/EmpBasics?%24select=EmpID%2CFirstName%2CLastName&%24filter=EmpID+eq+%27FORANT%27&%24top=1
+
+At 2025-11-18 17:29:22 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:53460
+At 2025-11-18 17:29:22::ffff:127.0.0.1:53460 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetPlantByCustomerID
+
+At 2025-11-18 17:29:22 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:53464
+At 2025-11-18 17:29:22::ffff:127.0.0.1:53464 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetEmployeeDataBase
+
+At 2025-11-18 17:29:22 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:53467
+At 2025-11-18 17:29:22::ffff:127.0.0.1:53467 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/odata/QS/Erp.BO.EmpBasicSvc/EmpBasics?%24select=EmpID%2CFirstName%2CLastName&%24filter=EmpID+eq+%27FORANT%27&%24top=1
+
+At 2025-11-18 17:29:23 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:53471
+At 2025-11-18 17:29:23::ffff:127.0.0.1:53471 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetPlantByCustomerID
+
+At 2025-11-18 17:29:23 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:53474
+At 2025-11-18 17:29:23::ffff:127.0.0.1:53474 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetEmployeeDataBase
+
+At 2025-11-18 17:29:23 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:53477
+At 2025-11-18 17:29:23::ffff:127.0.0.1:53477 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/odata/QS/Erp.BO.EmpBasicSvc/EmpBasics?%24select=EmpID%2CFirstName%2CLastName&%24filter=EmpID+eq+%27FORANT%27&%24top=1
+
+At 2025-11-18 17:29:23 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:53480
+At 2025-11-18 17:29:23::ffff:127.0.0.1:53480 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetPlantByCustomerID
+
+At 2025-11-18 17:29:23 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:53483
+At 2025-11-18 17:29:23::ffff:127.0.0.1:53483 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/Projects/CreateServiceProject
+Something went wrong handling de request close connexion 2025-11-18 17:29:24
+
+At 2025-11-18 17:29:25 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:53486
+At 2025-11-18 17:29:25::ffff:127.0.0.1:53486 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/BTMobileDataEntryMsSql
+SalesOrderSvc endpoint accessed https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/BTMobileDataEntryMsSql 2025-11-18 17:29:25
+
+At 2025-11-18 17:37:40 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:63826
+At 2025-11-18 17:37:40::ffff:127.0.0.1:63826 accessed api point https://
+Endpoint not whitelisted close connexion  https:// 2025-11-18 17:37:40
+
+At 2025-11-18 17:37:40 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:63827
+At 2025-11-18 17:37:40::ffff:127.0.0.1:63827 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetPlantByCustomerID
+
+At 2025-11-18 17:39:22 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:63848
+At 2025-11-18 17:39:22::ffff:127.0.0.1:63848 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/Projects/CreateServiceProject
+
+At 2025-11-18 17:41:12 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:62441
+At 2025-11-18 17:41:12::ffff:127.0.0.1:62441 accessed api point https://
+Endpoint not whitelisted close connexion  https:// 2025-11-18 17:41:12
+
+At 2025-11-18 17:41:12 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:62442
+At 2025-11-18 17:41:12::ffff:127.0.0.1:62442 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetPlantByCustomerID
+
+At 2025-11-18 17:41:13 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:62445
+At 2025-11-18 17:41:13::ffff:127.0.0.1:62445 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/Projects/CreateServiceProject

@@ -1,0 +1,691 @@
+
+At 2025-11-19 08:54:49 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:53084
+At 2025-11-19 08:54:49::ffff:127.0.0.1:53084 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/CreateExpense
+
+At 2025-11-19 08:56:26 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:62980
+At 2025-11-19 08:56:26::ffff:127.0.0.1:62980 accessed api point https://
+[2025-11-19 08:56:26] ERROR 403 - ENDPOINT_NOT_WHITELISTED - The requested endpoint is not allowed by the gateway. | IP=::ffff:127.0.0.1 | Endpoint=/Entry/EntryPoint | TraceId=0HNH7EDN9NK9C:00000001
+
+At 2025-11-19 08:56:26 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:62981
+At 2025-11-19 08:56:26::ffff:127.0.0.1:62981 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetPlantByCustomerID
+
+At 2025-11-19 09:24:29 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:59907
+At 2025-11-19 09:24:29::ffff:127.0.0.1:59907 accessed api point https://
+[2025-11-19 09:24:29] ERROR 403 - ENDPOINT_NOT_WHITELISTED - The requested endpoint is not allowed by the gateway. | IP=::ffff:127.0.0.1 | Endpoint=/Entry/EntryPoint | TraceId=0HNH7ETCS2NH7:00000001
+
+At 2025-11-19 09:24:29 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:59908
+At 2025-11-19 09:24:29::ffff:127.0.0.1:59908 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetPlantByCustomerID
+
+At 2025-11-19 09:24:29 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:59911
+At 2025-11-19 09:24:29::ffff:127.0.0.1:59911 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetEmployeeDataBase
+
+At 2025-11-19 09:24:30 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:59914
+At 2025-11-19 09:24:30::ffff:127.0.0.1:59914 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/odata/QS/Erp.BO.EmpBasicSvc/EmpBasics?%24select=EmpID%2CFirstName%2CLastName&%24filter=EmpID+eq+%27FORANT%27&%24top=1
+
+At 2025-11-19 09:24:30 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:59917
+At 2025-11-19 09:24:30::ffff:127.0.0.1:59917 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetPlantByCustomerID
+
+At 2025-11-19 09:24:30 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:59920
+At 2025-11-19 09:24:30::ffff:127.0.0.1:59920 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetEmployeeDataBase
+
+At 2025-11-19 09:24:30 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:59923
+At 2025-11-19 09:24:30::ffff:127.0.0.1:59923 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/odata/QS/Erp.BO.EmpBasicSvc/EmpBasics?%24select=EmpID%2CFirstName%2CLastName&%24filter=EmpID+eq+%27FORANT%27&%24top=1
+
+At 2025-11-19 09:24:30 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:59926
+At 2025-11-19 09:24:30::ffff:127.0.0.1:59926 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetPlantByCustomerID
+
+At 2025-11-19 09:24:31 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:59929
+At 2025-11-19 09:24:31::ffff:127.0.0.1:59929 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetEmployeeDataBase
+
+At 2025-11-19 09:24:31 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:59932
+At 2025-11-19 09:24:31::ffff:127.0.0.1:59932 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/odata/QS/Erp.BO.EmpBasicSvc/EmpBasics?%24select=EmpID%2CFirstName%2CLastName&%24filter=EmpID+eq+%27FORANT%27&%24top=1
+
+At 2025-11-19 09:24:31 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:59935
+At 2025-11-19 09:24:31::ffff:127.0.0.1:59935 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetPlantByCustomerID
+
+At 2025-11-19 09:24:31 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:59938
+At 2025-11-19 09:24:31::ffff:127.0.0.1:59938 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetEmployeeDataBase
+
+At 2025-11-19 09:24:31 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:59941
+At 2025-11-19 09:24:31::ffff:127.0.0.1:59941 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/odata/QS/Erp.BO.EmpBasicSvc/EmpBasics?%24select=EmpID%2CFirstName%2CLastName&%24filter=EmpID+eq+%27FORANT%27&%24top=1
+
+At 2025-11-19 09:24:31 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:59944
+At 2025-11-19 09:24:31::ffff:127.0.0.1:59944 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetPlantByCustomerID
+
+At 2025-11-19 09:24:32 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:59947
+At 2025-11-19 09:24:32::ffff:127.0.0.1:59947 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetEmployeeDataBase
+
+At 2025-11-19 09:24:32 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:59950
+At 2025-11-19 09:24:32::ffff:127.0.0.1:59950 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/odata/QS/Erp.BO.EmpBasicSvc/EmpBasics?%24select=EmpID%2CFirstName%2CLastName&%24filter=EmpID+eq+%27FORANT%27&%24top=1
+
+At 2025-11-19 09:24:32 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:59953
+At 2025-11-19 09:24:32::ffff:127.0.0.1:59953 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetPlantByCustomerID
+
+At 2025-11-19 09:24:32 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:59956
+At 2025-11-19 09:24:32::ffff:127.0.0.1:59956 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetEmployeeDataBase
+
+At 2025-11-19 09:24:33 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:59959
+At 2025-11-19 09:24:33::ffff:127.0.0.1:59959 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/odata/QS/Erp.BO.EmpBasicSvc/EmpBasics?%24select=EmpID%2CFirstName%2CLastName&%24filter=EmpID+eq+%27FORANT%27&%24top=1
+
+At 2025-11-19 09:24:33 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:59962
+At 2025-11-19 09:24:33::ffff:127.0.0.1:59962 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetPlantByCustomerID
+
+At 2025-11-19 09:24:33 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:59965
+At 2025-11-19 09:24:33::ffff:127.0.0.1:59965 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetEmployeeDataBase
+
+At 2025-11-19 09:24:33 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:59968
+At 2025-11-19 09:24:33::ffff:127.0.0.1:59968 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/odata/QS/Erp.BO.EmpBasicSvc/EmpBasics?%24select=EmpID%2CFirstName%2CLastName&%24filter=EmpID+eq+%27FORANT%27&%24top=1
+
+At 2025-11-19 09:24:34 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:59971
+At 2025-11-19 09:24:34::ffff:127.0.0.1:59971 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetPlantByCustomerID
+
+At 2025-11-19 09:24:34 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:59974
+At 2025-11-19 09:24:34::ffff:127.0.0.1:59974 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetEmployeeDataBase
+
+At 2025-11-19 09:24:34 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:59977
+At 2025-11-19 09:24:34::ffff:127.0.0.1:59977 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/odata/QS/Erp.BO.EmpBasicSvc/EmpBasics?%24select=EmpID%2CFirstName%2CLastName&%24filter=EmpID+eq+%27FORANT%27&%24top=1
+
+At 2025-11-19 09:24:34 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:59980
+At 2025-11-19 09:24:34::ffff:127.0.0.1:59980 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetEmployeeDataBase
+
+At 2025-11-19 09:24:34 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:59983
+At 2025-11-19 09:24:34::ffff:127.0.0.1:59983 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/odata/QS/Erp.BO.EmpBasicSvc/EmpBasics?%24select=EmpID%2CFirstName%2CLastName&%24filter=EmpID+eq+%27FORANT%27&%24top=1
+
+At 2025-11-19 09:24:34 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:59986
+At 2025-11-19 09:24:34::ffff:127.0.0.1:59986 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetEmployeeDataBase
+
+At 2025-11-19 09:24:35 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:59989
+At 2025-11-19 09:24:35::ffff:127.0.0.1:59989 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/odata/QS/Erp.BO.EmpBasicSvc/EmpBasics?%24select=EmpID%2CFirstName%2CLastName&%24filter=EmpID+eq+%27SIMSTE%27&%24top=1
+
+At 2025-11-19 09:24:35 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:59992
+At 2025-11-19 09:24:35::ffff:127.0.0.1:59992 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetEmployeeDataBase
+
+At 2025-11-19 09:24:35 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:59995
+At 2025-11-19 09:24:35::ffff:127.0.0.1:59995 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/odata/QS/Erp.BO.EmpBasicSvc/EmpBasics?%24select=EmpID%2CFirstName%2CLastName&%24filter=EmpID+eq+%27FORANT%27&%24top=1
+
+At 2025-11-19 09:24:35 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:59998
+At 2025-11-19 09:24:35::ffff:127.0.0.1:59998 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetEmployeeDataBase
+
+At 2025-11-19 09:24:35 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:60001
+At 2025-11-19 09:24:35::ffff:127.0.0.1:60001 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/odata/QS/Erp.BO.EmpBasicSvc/EmpBasics?%24select=EmpID%2CFirstName%2CLastName&%24filter=EmpID+eq+%27SIMSTE%27&%24top=1
+
+At 2025-11-19 09:24:35 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:60004
+At 2025-11-19 09:24:35::ffff:127.0.0.1:60004 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetPlantByCustomerID
+
+At 2025-11-19 09:24:36 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:60007
+At 2025-11-19 09:24:36::ffff:127.0.0.1:60007 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/Projects/CreateServiceProject
+[2025-11-19 09:24:36] ERROR 502 - INTERNAL_GATEWAY_ERROR - The gateway did not receive a valid response from the internal service. : {"HttpStatus":400,"ReasonPhrase":"REST API Exception","ErrorMessage":"BPM runtime caught an unexpected exception of 'DirectoryNotFoundException' type.\r\nSee more info in the Inner Exception section of Exception Details.","ErrorType":"Ice.BLException","ErrorDetails":[{"Message":"BPM runtime caught an unexpected exception of 'DirectoryNotFoundException' type.\r\nSee more info in the Inner Exception section of Exception Details.","Type":"Error","Program":"efx.projects.dll","Method":"Run"}],"CorrelationId":"aa856613-7f19-4d7d-9bc1-830edb412586"} | IP=::ffff:127.0.0.1 | Endpoint=/Entry/EntryPoint | TraceId=0HNH7ETCS2NI9:00000001
+
+At 2025-11-19 09:24:37 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:60010
+At 2025-11-19 09:24:37::ffff:127.0.0.1:60010 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetPlantByCustomerID
+
+At 2025-11-19 09:24:37 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:60013
+At 2025-11-19 09:24:37::ffff:127.0.0.1:60013 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/Projects/CreateServiceProject
+
+At 2025-11-19 09:31:00 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:62914
+At 2025-11-19 09:31:00::ffff:127.0.0.1:62914 accessed api point https://
+[2025-11-19 09:31:00] ERROR 403 - ENDPOINT_NOT_WHITELISTED - The requested endpoint is not allowed by the gateway. | IP=::ffff:127.0.0.1 | Endpoint=/Entry/EntryPoint | TraceId=0HNH7F11ETJGJ:00000001
+
+At 2025-11-19 09:31:00 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:62915
+At 2025-11-19 09:31:00::ffff:127.0.0.1:62915 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetPlantByCustomerID
+
+At 2025-11-19 09:31:20 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:62921
+At 2025-11-19 09:31:20::ffff:127.0.0.1:62921 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetEmployeeDataBase
+
+At 2025-11-19 09:31:34 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:53740
+At 2025-11-19 09:31:34::ffff:127.0.0.1:53740 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/odata/QS/Erp.BO.EmpBasicSvc/EmpBasics?%24select=EmpID%2CFirstName%2CLastName&%24filter=EmpID+eq+%27FORANT%27&%24top=1
+
+At 2025-11-19 09:31:50 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:53746
+At 2025-11-19 09:31:50::ffff:127.0.0.1:53746 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetPlantByCustomerID
+
+At 2025-11-19 09:32:06 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:53751
+At 2025-11-19 09:32:06::ffff:127.0.0.1:53751 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetEmployeeDataBase
+
+At 2025-11-19 09:32:27 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:61821
+At 2025-11-19 09:32:27::ffff:127.0.0.1:61821 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/odata/QS/Erp.BO.EmpBasicSvc/EmpBasics?%24select=EmpID%2CFirstName%2CLastName&%24filter=EmpID+eq+%27FORANT%27&%24top=1
+
+At 2025-11-19 09:32:28 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:61824
+At 2025-11-19 09:32:28::ffff:127.0.0.1:61824 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetPlantByCustomerID
+
+At 2025-11-19 09:32:30 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:61829
+At 2025-11-19 09:32:30::ffff:127.0.0.1:61829 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetEmployeeDataBase
+
+At 2025-11-19 09:32:33 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:52361
+At 2025-11-19 09:32:33::ffff:127.0.0.1:52361 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/odata/QS/Erp.BO.EmpBasicSvc/EmpBasics?%24select=EmpID%2CFirstName%2CLastName&%24filter=EmpID+eq+%27FORANT%27&%24top=1
+
+At 2025-11-19 09:32:35 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:52368
+At 2025-11-19 09:32:35::ffff:127.0.0.1:52368 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetPlantByCustomerID
+
+At 2025-11-19 09:32:39 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:52371
+At 2025-11-19 09:32:39::ffff:127.0.0.1:52371 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetEmployeeDataBase
+
+At 2025-11-19 09:32:41 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:52374
+At 2025-11-19 09:32:41::ffff:127.0.0.1:52374 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/odata/QS/Erp.BO.EmpBasicSvc/EmpBasics?%24select=EmpID%2CFirstName%2CLastName&%24filter=EmpID+eq+%27FORANT%27&%24top=1
+
+At 2025-11-19 09:32:42 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:52377
+At 2025-11-19 09:32:42::ffff:127.0.0.1:52377 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetPlantByCustomerID
+
+At 2025-11-19 09:32:46 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:52384
+At 2025-11-19 09:32:46::ffff:127.0.0.1:52384 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetEmployeeDataBase
+
+At 2025-11-19 09:32:47 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:52387
+At 2025-11-19 09:32:47::ffff:127.0.0.1:52387 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/odata/QS/Erp.BO.EmpBasicSvc/EmpBasics?%24select=EmpID%2CFirstName%2CLastName&%24filter=EmpID+eq+%27FORANT%27&%24top=1
+
+At 2025-11-19 09:32:48 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:52390
+At 2025-11-19 09:32:48::ffff:127.0.0.1:52390 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetPlantByCustomerID
+
+At 2025-11-19 09:32:52 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:52396
+At 2025-11-19 09:32:52::ffff:127.0.0.1:52396 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetEmployeeDataBase
+
+At 2025-11-19 09:32:53 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:52399
+At 2025-11-19 09:32:53::ffff:127.0.0.1:52399 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/odata/QS/Erp.BO.EmpBasicSvc/EmpBasics?%24select=EmpID%2CFirstName%2CLastName&%24filter=EmpID+eq+%27FORANT%27&%24top=1
+
+At 2025-11-19 09:32:55 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:52402
+At 2025-11-19 09:32:55::ffff:127.0.0.1:52402 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetPlantByCustomerID
+
+At 2025-11-19 09:32:58 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:52405
+At 2025-11-19 09:32:58::ffff:127.0.0.1:52405 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetEmployeeDataBase
+
+At 2025-11-19 09:33:00 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:52408
+At 2025-11-19 09:33:00::ffff:127.0.0.1:52408 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/odata/QS/Erp.BO.EmpBasicSvc/EmpBasics?%24select=EmpID%2CFirstName%2CLastName&%24filter=EmpID+eq+%27FORANT%27&%24top=1
+
+At 2025-11-19 09:33:02 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:52411
+At 2025-11-19 09:33:02::ffff:127.0.0.1:52411 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetPlantByCustomerID
+
+At 2025-11-19 09:33:04 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:52414
+At 2025-11-19 09:33:04::ffff:127.0.0.1:52414 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetEmployeeDataBase
+
+At 2025-11-19 09:33:06 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:52417
+At 2025-11-19 09:33:06::ffff:127.0.0.1:52417 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/odata/QS/Erp.BO.EmpBasicSvc/EmpBasics?%24select=EmpID%2CFirstName%2CLastName&%24filter=EmpID+eq+%27FORANT%27&%24top=1
+
+At 2025-11-19 09:33:08 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:52420
+At 2025-11-19 09:33:08::ffff:127.0.0.1:52420 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetEmployeeDataBase
+
+At 2025-11-19 09:33:11 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:51949
+At 2025-11-19 09:33:11::ffff:127.0.0.1:51949 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/odata/QS/Erp.BO.EmpBasicSvc/EmpBasics?%24select=EmpID%2CFirstName%2CLastName&%24filter=EmpID+eq+%27FORANT%27&%24top=1
+
+At 2025-11-19 09:33:12 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:51952
+At 2025-11-19 09:33:12::ffff:127.0.0.1:51952 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetEmployeeDataBase
+
+At 2025-11-19 09:33:13 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:51955
+At 2025-11-19 09:33:13::ffff:127.0.0.1:51955 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/odata/QS/Erp.BO.EmpBasicSvc/EmpBasics?%24select=EmpID%2CFirstName%2CLastName&%24filter=EmpID+eq+%27SIMSTE%27&%24top=1
+
+At 2025-11-19 09:33:15 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:51958
+At 2025-11-19 09:33:15::ffff:127.0.0.1:51958 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetEmployeeDataBase
+
+At 2025-11-19 09:33:16 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:51961
+At 2025-11-19 09:33:16::ffff:127.0.0.1:51961 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/odata/QS/Erp.BO.EmpBasicSvc/EmpBasics?%24select=EmpID%2CFirstName%2CLastName&%24filter=EmpID+eq+%27FORANT%27&%24top=1
+
+At 2025-11-19 09:33:20 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:51967
+At 2025-11-19 09:33:20::ffff:127.0.0.1:51967 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetEmployeeDataBase
+
+At 2025-11-19 09:33:25 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:51975
+At 2025-11-19 09:33:25::ffff:127.0.0.1:51975 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/odata/QS/Erp.BO.EmpBasicSvc/EmpBasics?%24select=EmpID%2CFirstName%2CLastName&%24filter=EmpID+eq+%27SIMSTE%27&%24top=1
+
+At 2025-11-19 09:33:27 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:51978
+At 2025-11-19 09:33:27::ffff:127.0.0.1:51978 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetPlantByCustomerID
+
+At 2025-11-19 09:33:28 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:51981
+At 2025-11-19 09:33:29::ffff:127.0.0.1:51981 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/Projects/CreateServiceProject
+[2025-11-19 09:33:29] ERROR 502 - INTERNAL_GATEWAY_ERROR - The gateway did not receive a valid response from the internal service. : {"HttpStatus":400,"ReasonPhrase":"REST API Exception","ErrorMessage":"BPM runtime caught an unexpected exception of 'DirectoryNotFoundException' type.\r\nSee more info in the Inner Exception section of Exception Details.","ErrorType":"Ice.BLException","ErrorDetails":[{"Message":"BPM runtime caught an unexpected exception of 'DirectoryNotFoundException' type.\r\nSee more info in the Inner Exception section of Exception Details.","Type":"Error","Program":"efx.projects.dll","Method":"Run"}],"CorrelationId":"c56f134d-a7a9-4a35-a965-2c6ca0d86d12"} | IP=::ffff:127.0.0.1 | Endpoint=/Entry/EntryPoint | TraceId=0HNH7F11ETJHL:00000001
+
+At 2025-11-19 09:33:30 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:51985
+At 2025-11-19 09:33:30::ffff:127.0.0.1:51985 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetPlantByCustomerID
+
+At 2025-11-19 09:33:31 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:51988
+At 2025-11-19 09:33:31::ffff:127.0.0.1:51988 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/Projects/CreateServiceProject
+[2025-11-19 09:33:35] ERROR 502 - INTERNAL_GATEWAY_ERROR - The gateway did not receive a valid response from the internal service. : {"HttpStatus":400,"ReasonPhrase":"REST API Exception","ErrorMessage":"System.Net.Mail.SmtpFailedRecipientsException: Unable to send to all recipients.\r\n ---> System.Net.Mail.SmtpFailedRecipientException: Mailbox unavailable. The server response was: 5.7.1 Unable to relay for EpicorLogs@qualtech.ca\r\n   --- End of inner exception stack trace ---\r\n   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)\r\n   at System.Net.Mail.SmtpClient.Send(MailMessage message)\r\n   at EFx.Emails.Implementation.SendEmailImpl.Run()","ErrorType":"Ice.BLException","ErrorDetails":[{"Message":"System.Net.Mail.SmtpFailedRecipientsException: Unable to send to all recipients.\r\n ---> System.Net.Mail.SmtpFailedRecipientException: Mailbox unavailable. The server response was: 5.7.1 Unable to relay for EpicorLogs@qualtech.ca\r\n   --- End of inner exception stack trace ---\r\n   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)\r\n   at System.Net.Mail.SmtpClient.Send(MailMessage message)\r\n   at EFx.Emails.Implementation.SendEmailImpl.Run()","Type":"Error","Program":"efx.projects.dll","Method":"Run"}],"CorrelationId":"fb2beed8-fd55-478c-93e5-bad92800ddd7"} | IP=::ffff:127.0.0.1 | Endpoint=/Entry/EntryPoint | TraceId=0HNH7F11ETJHN:00000001
+
+At 2025-11-19 12:26:25 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:52895
+At 2025-11-19 12:26:25::ffff:127.0.0.1:52895 accessed api point https://
+[2025-11-19 12:26:25] ERROR 403 - ENDPOINT_NOT_WHITELISTED - The requested endpoint is not allowed by the gateway. | IP=::ffff:127.0.0.1 | Endpoint=/Entry/EntryPoint | TraceId=0HNH7I31V7SAT:00000001
+
+At 2025-11-19 12:26:25 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:52896
+At 2025-11-19 12:26:25::ffff:127.0.0.1:52896 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetPlantByCustomerID
+
+At 2025-11-19 12:26:51 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:61172
+At 2025-11-19 12:26:51::ffff:127.0.0.1:61172 accessed api point https://
+[2025-11-19 12:26:51] ERROR 403 - ENDPOINT_NOT_WHITELISTED - The requested endpoint is not allowed by the gateway. | IP=::ffff:127.0.0.1 | Endpoint=/Entry/EntryPoint | TraceId=0HNH7I39PJP1S:00000001
+
+At 2025-11-19 12:26:51 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:61173
+At 2025-11-19 12:26:51::ffff:127.0.0.1:61173 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetPlantByCustomerID
+
+At 2025-11-19 12:26:51 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:61176
+At 2025-11-19 12:26:51::ffff:127.0.0.1:61176 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetEmployeeDataBase
+
+At 2025-11-19 12:26:51 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:61179
+At 2025-11-19 12:26:51::ffff:127.0.0.1:61179 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/odata/QS/Erp.BO.EmpBasicSvc/EmpBasics?%24select=EmpID%2CFirstName%2CLastName&%24filter=EmpID+eq+%27FORANT%27&%24top=1
+
+At 2025-11-19 12:26:52 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:61182
+At 2025-11-19 12:26:52::ffff:127.0.0.1:61182 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetPlantByCustomerID
+
+At 2025-11-19 12:26:52 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:61185
+At 2025-11-19 12:26:52::ffff:127.0.0.1:61185 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetEmployeeDataBase
+
+At 2025-11-19 12:26:52 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:61188
+At 2025-11-19 12:26:52::ffff:127.0.0.1:61188 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/odata/QS/Erp.BO.EmpBasicSvc/EmpBasics?%24select=EmpID%2CFirstName%2CLastName&%24filter=EmpID+eq+%27FORANT%27&%24top=1
+
+At 2025-11-19 12:26:52 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:61191
+At 2025-11-19 12:26:52::ffff:127.0.0.1:61191 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetPlantByCustomerID
+
+At 2025-11-19 12:26:52 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:61194
+At 2025-11-19 12:26:52::ffff:127.0.0.1:61194 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetEmployeeDataBase
+
+At 2025-11-19 12:26:52 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:61197
+At 2025-11-19 12:26:52::ffff:127.0.0.1:61197 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/odata/QS/Erp.BO.EmpBasicSvc/EmpBasics?%24select=EmpID%2CFirstName%2CLastName&%24filter=EmpID+eq+%27FORANT%27&%24top=1
+
+At 2025-11-19 12:26:53 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:61200
+At 2025-11-19 12:26:53::ffff:127.0.0.1:61200 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetPlantByCustomerID
+
+At 2025-11-19 12:26:53 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:61203
+At 2025-11-19 12:26:53::ffff:127.0.0.1:61203 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetEmployeeDataBase
+
+At 2025-11-19 12:26:53 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:61206
+At 2025-11-19 12:26:53::ffff:127.0.0.1:61206 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/odata/QS/Erp.BO.EmpBasicSvc/EmpBasics?%24select=EmpID%2CFirstName%2CLastName&%24filter=EmpID+eq+%27FORANT%27&%24top=1
+
+At 2025-11-19 12:26:53 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:61209
+At 2025-11-19 12:26:53::ffff:127.0.0.1:61209 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetPlantByCustomerID
+
+At 2025-11-19 12:26:53 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:61212
+At 2025-11-19 12:26:53::ffff:127.0.0.1:61212 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetEmployeeDataBase
+
+At 2025-11-19 12:26:53 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:61215
+At 2025-11-19 12:26:53::ffff:127.0.0.1:61215 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/odata/QS/Erp.BO.EmpBasicSvc/EmpBasics?%24select=EmpID%2CFirstName%2CLastName&%24filter=EmpID+eq+%27FORANT%27&%24top=1
+
+At 2025-11-19 12:26:54 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:61218
+At 2025-11-19 12:26:54::ffff:127.0.0.1:61218 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetPlantByCustomerID
+
+At 2025-11-19 12:26:54 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:61221
+At 2025-11-19 12:26:54::ffff:127.0.0.1:61221 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetEmployeeDataBase
+
+At 2025-11-19 12:26:54 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:61224
+At 2025-11-19 12:26:54::ffff:127.0.0.1:61224 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/odata/QS/Erp.BO.EmpBasicSvc/EmpBasics?%24select=EmpID%2CFirstName%2CLastName&%24filter=EmpID+eq+%27FORANT%27&%24top=1
+
+At 2025-11-19 12:26:54 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:61227
+At 2025-11-19 12:26:54::ffff:127.0.0.1:61227 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetPlantByCustomerID
+
+At 2025-11-19 12:26:54 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:61230
+At 2025-11-19 12:26:54::ffff:127.0.0.1:61230 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetEmployeeDataBase
+
+At 2025-11-19 12:26:54 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:61233
+At 2025-11-19 12:26:54::ffff:127.0.0.1:61233 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/odata/QS/Erp.BO.EmpBasicSvc/EmpBasics?%24select=EmpID%2CFirstName%2CLastName&%24filter=EmpID+eq+%27FORANT%27&%24top=1
+
+At 2025-11-19 12:26:55 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:61236
+At 2025-11-19 12:26:55::ffff:127.0.0.1:61236 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetPlantByCustomerID
+
+At 2025-11-19 12:26:55 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:61239
+At 2025-11-19 12:26:55::ffff:127.0.0.1:61239 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetEmployeeDataBase
+
+At 2025-11-19 12:26:55 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:61242
+At 2025-11-19 12:26:55::ffff:127.0.0.1:61242 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/odata/QS/Erp.BO.EmpBasicSvc/EmpBasics?%24select=EmpID%2CFirstName%2CLastName&%24filter=EmpID+eq+%27FORANT%27&%24top=1
+
+At 2025-11-19 12:26:55 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:61245
+At 2025-11-19 12:26:55::ffff:127.0.0.1:61245 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetEmployeeDataBase
+
+At 2025-11-19 12:26:55 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:61248
+At 2025-11-19 12:26:55::ffff:127.0.0.1:61248 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/odata/QS/Erp.BO.EmpBasicSvc/EmpBasics?%24select=EmpID%2CFirstName%2CLastName&%24filter=EmpID+eq+%27FORANT%27&%24top=1
+
+At 2025-11-19 12:26:55 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:61251
+At 2025-11-19 12:26:55::ffff:127.0.0.1:61251 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetEmployeeDataBase
+
+At 2025-11-19 12:26:56 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:61254
+At 2025-11-19 12:26:56::ffff:127.0.0.1:61254 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/odata/QS/Erp.BO.EmpBasicSvc/EmpBasics?%24select=EmpID%2CFirstName%2CLastName&%24filter=EmpID+eq+%27SIMSTE%27&%24top=1
+
+At 2025-11-19 12:26:56 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:61257
+At 2025-11-19 12:26:56::ffff:127.0.0.1:61257 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetEmployeeDataBase
+
+At 2025-11-19 12:26:56 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:61260
+At 2025-11-19 12:26:56::ffff:127.0.0.1:61260 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/odata/QS/Erp.BO.EmpBasicSvc/EmpBasics?%24select=EmpID%2CFirstName%2CLastName&%24filter=EmpID+eq+%27FORANT%27&%24top=1
+
+At 2025-11-19 12:26:56 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:61263
+At 2025-11-19 12:26:56::ffff:127.0.0.1:61263 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetEmployeeDataBase
+
+At 2025-11-19 12:26:56 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:61266
+At 2025-11-19 12:26:56::ffff:127.0.0.1:61266 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/odata/QS/Erp.BO.EmpBasicSvc/EmpBasics?%24select=EmpID%2CFirstName%2CLastName&%24filter=EmpID+eq+%27SIMSTE%27&%24top=1
+
+At 2025-11-19 12:26:57 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:61269
+At 2025-11-19 12:26:57::ffff:127.0.0.1:61269 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetPlantByCustomerID
+
+At 2025-11-19 12:26:57 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:61272
+At 2025-11-19 12:26:57::ffff:127.0.0.1:61272 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/Projects/CreateServiceProject
+[2025-11-19 12:26:57] ERROR 502 - INTERNAL_GATEWAY_ERROR - The gateway did not receive a valid response from the internal service. : {"HttpStatus":400,"ReasonPhrase":"REST API Exception","ErrorMessage":"BPM runtime caught an unexpected exception of 'DirectoryNotFoundException' type.\r\nSee more info in the Inner Exception section of Exception Details.","ErrorType":"Ice.BLException","ErrorDetails":[{"Message":"BPM runtime caught an unexpected exception of 'DirectoryNotFoundException' type.\r\nSee more info in the Inner Exception section of Exception Details.","Type":"Error","Program":"efx.projects.dll","Method":"Run"}],"CorrelationId":"d6d7b65f-da60-405e-949b-7e4305ee2db7"} | IP=::ffff:127.0.0.1 | Endpoint=/Entry/EntryPoint | TraceId=0HNH7I39PJP2U:00000001
+
+At 2025-11-19 12:26:58 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:61275
+At 2025-11-19 12:26:58::ffff:127.0.0.1:61275 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetPlantByCustomerID
+
+At 2025-11-19 12:26:58 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:61278
+At 2025-11-19 12:26:58::ffff:127.0.0.1:61278 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/Projects/CreateServiceProject
+[2025-11-19 12:27:01] ERROR 502 - INTERNAL_GATEWAY_ERROR - The gateway did not receive a valid response from the internal service. : {"HttpStatus":400,"ReasonPhrase":"REST API Exception","ErrorMessage":"System.Net.Mail.SmtpFailedRecipientsException: Unable to send to all recipients.\r\n ---> System.Net.Mail.SmtpFailedRecipientException: Mailbox unavailable. The server response was: 5.7.1 Unable to relay for EpicorLogs@qualtech.ca\r\n   --- End of inner exception stack trace ---\r\n   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)\r\n   at System.Net.Mail.SmtpClient.Send(MailMessage message)\r\n   at EFx.Emails.Implementation.SendEmailImpl.Run()","ErrorType":"Ice.BLException","ErrorDetails":[{"Message":"System.Net.Mail.SmtpFailedRecipientsException: Unable to send to all recipients.\r\n ---> System.Net.Mail.SmtpFailedRecipientException: Mailbox unavailable. The server response was: 5.7.1 Unable to relay for EpicorLogs@qualtech.ca\r\n   --- End of inner exception stack trace ---\r\n   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)\r\n   at System.Net.Mail.SmtpClient.Send(MailMessage message)\r\n   at EFx.Emails.Implementation.SendEmailImpl.Run()","Type":"Error","Program":"efx.projects.dll","Method":"Run"}],"CorrelationId":"b5301df7-faba-4f49-a7df-70435ca9d0b9"} | IP=::ffff:127.0.0.1 | Endpoint=/Entry/EntryPoint | TraceId=0HNH7I39PJP30:00000001
+
+At 2025-11-19 12:27:01 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:61281
+At 2025-11-19 12:27:01::ffff:127.0.0.1:61281 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/BTMobileDataEntryMsSql
+
+At 2025-11-19 12:27:01 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:61284
+At 2025-11-19 12:27:01::ffff:127.0.0.1:61284 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/BTMobileDataEntryMsSql
+
+At 2025-11-19 12:27:01 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:61287
+At 2025-11-19 12:27:01::ffff:127.0.0.1:61287 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/BTMobileDataEntryMsSql
+
+At 2025-11-19 12:29:29 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:51655
+At 2025-11-19 12:29:29::ffff:127.0.0.1:51655 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/CreateExpense
+[2025-11-19 12:29:30] ERROR 502 - INTERNAL_GATEWAY_ERROR - The gateway did not receive a valid response from the internal service. : {"HttpStatus":400,"ReasonPhrase":"REST API Exception","ErrorMessage":"Closed Project.","ErrorType":"Ice.BLException","ErrorDetails":[{"Message":"Closed Project.","Type":"Error","Program":"efx.btmobileimport.dll","Method":"Run"}],"CorrelationId":"5902b049-ff21-4a25-b89c-0564ee59a653"} | IP=::ffff:127.0.0.1 | Endpoint=/Entry/EntryPoint | TraceId=0HNH7I39PJP34:00000001
+
+At 2025-11-19 12:30:36 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:59055
+At 2025-11-19 12:30:36::ffff:127.0.0.1:59055 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/CreateExpense
+[2025-11-19 12:30:37] ERROR 502 - INTERNAL_GATEWAY_ERROR - The gateway did not receive a valid response from the internal service. : {"HttpStatus":400,"ReasonPhrase":"REST API Exception","ErrorMessage":"Closed Project.","ErrorType":"Ice.BLException","ErrorDetails":[{"Message":"Closed Project.","Type":"Error","Program":"efx.btmobileimport.dll","Method":"Run"}],"CorrelationId":"cd7fd65a-c6ba-4ef5-b6e0-17066f3b8571"} | IP=::ffff:127.0.0.1 | Endpoint=/Entry/EntryPoint | TraceId=0HNH7I39PJP35:00000001
+
+At 2025-11-19 12:31:57 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:52920
+At 2025-11-19 12:31:57::ffff:127.0.0.1:52920 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/CreateExpense
+[2025-11-19 12:31:58] ERROR 502 - INTERNAL_GATEWAY_ERROR - The gateway did not receive a valid response from the internal service. : {"HttpStatus":400,"ReasonPhrase":"REST API Exception","ErrorMessage":"Closed Project.","ErrorType":"Ice.BLException","ErrorDetails":[{"Message":"Closed Project.","Type":"Error","Program":"efx.btmobileimport.dll","Method":"Run"}],"CorrelationId":"9943d9f5-5dac-4067-8fcd-e85ca1818308"} | IP=::ffff:127.0.0.1 | Endpoint=/Entry/EntryPoint | TraceId=0HNH7I39PJP36:00000001
+
+At 2025-11-19 12:33:17 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:49672
+At 2025-11-19 12:33:17::ffff:127.0.0.1:49672 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/CreateExpense
+[2025-11-19 12:33:17] ERROR 502 - INTERNAL_GATEWAY_ERROR - The gateway did not receive a valid response from the internal service. : {"HttpStatus":400,"ReasonPhrase":"REST API Exception","ErrorMessage":"Closed Project.","ErrorType":"Ice.BLException","ErrorDetails":[{"Message":"Closed Project.","Type":"Error","Program":"efx.btmobileimport.dll","Method":"Run"}],"CorrelationId":"306ad52e-5d23-4f0f-8def-911562cb93c0"} | IP=::ffff:127.0.0.1 | Endpoint=/Entry/EntryPoint | TraceId=0HNH7I39PJP37:00000001
+
+At 2025-11-19 12:36:53 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:60418
+At 2025-11-19 12:36:53::ffff:127.0.0.1:60418 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/CreateExpense
+[2025-11-19 12:36:53] ERROR 502 - INTERNAL_GATEWAY_ERROR - The gateway did not receive a valid response from the internal service. : {"HttpStatus":400,"ReasonPhrase":"REST API Exception","ErrorMessage":"Closed Project.","ErrorType":"Ice.BLException","ErrorDetails":[{"Message":"Closed Project.","Type":"Error","Program":"efx.btmobileimport.dll","Method":"Run"}],"CorrelationId":"20de488a-e5cc-486b-815a-8c277fab6a71"} | IP=::ffff:127.0.0.1 | Endpoint=/Entry/EntryPoint | TraceId=0HNH7I39PJP38:00000001
+
+At 2025-11-19 12:38:20 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:51751
+At 2025-11-19 12:38:20::ffff:127.0.0.1:51751 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/CreateExpense
+[2025-11-19 12:38:21] ERROR 502 - INTERNAL_GATEWAY_ERROR - The gateway did not receive a valid response from the internal service. : {"HttpStatus":400,"ReasonPhrase":"REST API Exception","ErrorMessage":"Closed Project.","ErrorType":"Ice.BLException","ErrorDetails":[{"Message":"Closed Project.","Type":"Error","Program":"efx.btmobileimport.dll","Method":"Run"}],"CorrelationId":"51b8d761-b8a6-4e5d-a342-794368e1735a"} | IP=::ffff:127.0.0.1 | Endpoint=/Entry/EntryPoint | TraceId=0HNH7I39PJP39:00000001
+
+At 2025-11-19 12:41:58 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:52461
+At 2025-11-19 12:41:58::ffff:127.0.0.1:52461 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/CreateExpense
+
+At 2025-11-19 12:41:58 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:52464
+At 2025-11-19 12:41:58::ffff:127.0.0.1:52464 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/CreateExpense
+[2025-11-19 12:41:59] ERROR 502 - INTERNAL_GATEWAY_ERROR - The gateway did not receive a valid response from the internal service. : {"HttpStatus":400,"ReasonPhrase":"REST API Exception","ErrorMessage":"Invalid Tax Liability.","ErrorType":"Ice.BLException","ErrorDetails":[{"Message":"Invalid Tax Liability.","Type":"Error","Program":"efx.btmobileimport.dll","Method":"Run"}],"CorrelationId":"c3927cbd-844a-4bdf-93f8-6274ed0a4368"} | IP=::ffff:127.0.0.1 | Endpoint=/Entry/EntryPoint | TraceId=0HNH7I39PJP3B:00000001
+
+At 2025-11-19 12:41:59 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:52640
+At 2025-11-19 12:41:59::ffff:127.0.0.1:52640 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/CreateExpense
+[2025-11-19 12:42:00] ERROR 502 - INTERNAL_GATEWAY_ERROR - The gateway did not receive a valid response from the internal service. : {"HttpStatus":400,"ReasonPhrase":"REST API Exception","ErrorMessage":"Invalid Tax Liability.","ErrorType":"Ice.BLException","ErrorDetails":[{"Message":"Invalid Tax Liability.","Type":"Error","Program":"efx.btmobileimport.dll","Method":"Run"}],"CorrelationId":"25191587-b5ff-432e-8712-79c7088bb7e3"} | IP=::ffff:127.0.0.1 | Endpoint=/Entry/EntryPoint | TraceId=0HNH7I39PJP3C:00000001
+
+At 2025-11-19 12:42:00 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:52643
+At 2025-11-19 12:42:00::ffff:127.0.0.1:52643 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/CreateExpense
+[2025-11-19 12:42:00] ERROR 502 - INTERNAL_GATEWAY_ERROR - The gateway did not receive a valid response from the internal service. : {"HttpStatus":400,"ReasonPhrase":"REST API Exception","ErrorMessage":"Invalid Tax Liability.","ErrorType":"Ice.BLException","ErrorDetails":[{"Message":"Invalid Tax Liability.","Type":"Error","Program":"efx.btmobileimport.dll","Method":"Run"}],"CorrelationId":"3cefebdf-9393-42f5-913c-ddb7eeebd77a"} | IP=::ffff:127.0.0.1 | Endpoint=/Entry/EntryPoint | TraceId=0HNH7I39PJP3D:00000001
+
+At 2025-11-19 12:42:00 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:52646
+At 2025-11-19 12:42:00::ffff:127.0.0.1:52646 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/CreateExpense
+
+At 2025-11-19 12:42:00 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:52649
+At 2025-11-19 12:42:00::ffff:127.0.0.1:52649 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/CreateExpense
+[2025-11-19 12:42:00] ERROR 502 - INTERNAL_GATEWAY_ERROR - The gateway did not receive a valid response from the internal service. : {"HttpStatus":400,"ReasonPhrase":"REST API Exception","ErrorMessage":"Closed Project.","ErrorType":"Ice.BLException","ErrorDetails":[{"Message":"Closed Project.","Type":"Error","Program":"efx.btmobileimport.dll","Method":"Run"}],"CorrelationId":"f0d0c669-ca97-4e23-9966-56d6461a5ec5"} | IP=::ffff:127.0.0.1 | Endpoint=/Entry/EntryPoint | TraceId=0HNH7I39PJP3F:00000001
+
+At 2025-11-19 12:42:00 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:52652
+At 2025-11-19 12:42:00::ffff:127.0.0.1:52652 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/CreateExpense
+
+At 2025-11-19 12:42:01 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:52655
+At 2025-11-19 12:42:01::ffff:127.0.0.1:52655 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/CreateExpense
+[2025-11-19 12:42:01] ERROR 502 - INTERNAL_GATEWAY_ERROR - The gateway did not receive a valid response from the internal service. : {"HttpStatus":400,"ReasonPhrase":"REST API Exception","ErrorMessage":"Project is inactive.","ErrorType":"Ice.BLException","ErrorDetails":[{"Message":"Project is inactive.","Type":"Error","Program":"efx.btmobileimport.dll","Method":"Run"}],"CorrelationId":"abfd1c65-196c-4d23-a0e9-bf6bc5b8e454"} | IP=::ffff:127.0.0.1 | Endpoint=/Entry/EntryPoint | TraceId=0HNH7I39PJP3H:00000001
+
+At 2025-11-19 12:42:01 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:58588
+At 2025-11-19 12:42:01::ffff:127.0.0.1:58588 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/CreateExpense
+[2025-11-19 12:42:01] ERROR 502 - INTERNAL_GATEWAY_ERROR - The gateway did not receive a valid response from the internal service. : {"HttpStatus":400,"ReasonPhrase":"REST API Exception","ErrorMessage":"Project is inactive.","ErrorType":"Ice.BLException","ErrorDetails":[{"Message":"Project is inactive.","Type":"Error","Program":"efx.btmobileimport.dll","Method":"Run"}],"CorrelationId":"c0c55caf-33c9-4037-a927-1d44297530b7"} | IP=::ffff:127.0.0.1 | Endpoint=/Entry/EntryPoint | TraceId=0HNH7I39PJP3I:00000001
+
+At 2025-11-19 12:42:01 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:58591
+At 2025-11-19 12:42:01::ffff:127.0.0.1:58591 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/CreateExpense
+[2025-11-19 12:42:01] ERROR 502 - INTERNAL_GATEWAY_ERROR - The gateway did not receive a valid response from the internal service. : {"HttpStatus":400,"ReasonPhrase":"REST API Exception","ErrorMessage":"Project is inactive.","ErrorType":"Ice.BLException","ErrorDetails":[{"Message":"Project is inactive.","Type":"Error","Program":"efx.btmobileimport.dll","Method":"Run"}],"CorrelationId":"c5623265-eb19-4a9b-a4f5-71696dffedcf"} | IP=::ffff:127.0.0.1 | Endpoint=/Entry/EntryPoint | TraceId=0HNH7I39PJP3J:00000001
+
+At 2025-11-19 12:42:01 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:58594
+At 2025-11-19 12:42:01::ffff:127.0.0.1:58594 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/CreateExpense
+
+At 2025-11-19 12:42:02 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:58597
+At 2025-11-19 12:42:02::ffff:127.0.0.1:58597 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/CreateExpense
+[2025-11-19 12:42:02] ERROR 502 - INTERNAL_GATEWAY_ERROR - The gateway did not receive a valid response from the internal service. : {"HttpStatus":400,"ReasonPhrase":"REST API Exception","ErrorMessage":"Invalid Tax Liability.","ErrorType":"Ice.BLException","ErrorDetails":[{"Message":"Invalid Tax Liability.","Type":"Error","Program":"efx.btmobileimport.dll","Method":"Run"}],"CorrelationId":"0a0745d5-1dd8-4e6e-b1c5-0fd2cc606fd2"} | IP=::ffff:127.0.0.1 | Endpoint=/Entry/EntryPoint | TraceId=0HNH7I39PJP3L:00000001
+
+At 2025-11-19 12:42:02 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:58600
+At 2025-11-19 12:42:02::ffff:127.0.0.1:58600 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/CreateExpense
+[2025-11-19 12:42:02] ERROR 502 - INTERNAL_GATEWAY_ERROR - The gateway did not receive a valid response from the internal service. : {"HttpStatus":400,"ReasonPhrase":"REST API Exception","ErrorMessage":"Closed Project.","ErrorType":"Ice.BLException","ErrorDetails":[{"Message":"Closed Project.","Type":"Error","Program":"efx.btmobileimport.dll","Method":"Run"}],"CorrelationId":"0c44d302-435a-40ad-b993-674956da74fe"} | IP=::ffff:127.0.0.1 | Endpoint=/Entry/EntryPoint | TraceId=0HNH7I39PJP3M:00000001
+
+At 2025-11-19 12:44:00 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:56254
+At 2025-11-19 12:44:00::ffff:127.0.0.1:56254 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/CreateExpense
+[2025-11-19 12:44:00] ERROR 502 - INTERNAL_GATEWAY_ERROR - The gateway did not receive a valid response from the internal service. : {"HttpStatus":400,"ReasonPhrase":"REST API Exception","ErrorMessage":"Invalid Tax Liability.","ErrorType":"Ice.BLException","ErrorDetails":[{"Message":"Invalid Tax Liability.","Type":"Error","Program":"efx.btmobileimport.dll","Method":"Run"}],"CorrelationId":"f79feb3d-6d8c-4f2c-a1ca-59a88b84361d"} | IP=::ffff:127.0.0.1 | Endpoint=/Entry/EntryPoint | TraceId=0HNH7I39PJP3N:00000001
+
+At 2025-11-19 12:44:00 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:56257
+At 2025-11-19 12:44:00::ffff:127.0.0.1:56257 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/CreateExpense
+[2025-11-19 12:44:01] ERROR 502 - INTERNAL_GATEWAY_ERROR - The gateway did not receive a valid response from the internal service. : {"HttpStatus":400,"ReasonPhrase":"REST API Exception","ErrorMessage":"Invalid Tax Liability.","ErrorType":"Ice.BLException","ErrorDetails":[{"Message":"Invalid Tax Liability.","Type":"Error","Program":"efx.btmobileimport.dll","Method":"Run"}],"CorrelationId":"4ae67acf-4c1e-46c9-b69c-1fcce28744d0"} | IP=::ffff:127.0.0.1 | Endpoint=/Entry/EntryPoint | TraceId=0HNH7I39PJP3O:00000001
+
+At 2025-11-19 12:44:01 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:56260
+At 2025-11-19 12:44:01::ffff:127.0.0.1:56260 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/CreateExpense
+[2025-11-19 12:44:01] ERROR 502 - INTERNAL_GATEWAY_ERROR - The gateway did not receive a valid response from the internal service. : {"HttpStatus":400,"ReasonPhrase":"REST API Exception","ErrorMessage":"Invalid Tax Liability.","ErrorType":"Ice.BLException","ErrorDetails":[{"Message":"Invalid Tax Liability.","Type":"Error","Program":"efx.btmobileimport.dll","Method":"Run"}],"CorrelationId":"17a7cce9-bba7-42b4-9320-0036b6bd96a2"} | IP=::ffff:127.0.0.1 | Endpoint=/Entry/EntryPoint | TraceId=0HNH7I39PJP3P:00000001
+
+At 2025-11-19 12:44:01 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:56263
+At 2025-11-19 12:44:01::ffff:127.0.0.1:56263 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/CreateExpense
+[2025-11-19 12:44:01] ERROR 502 - INTERNAL_GATEWAY_ERROR - The gateway did not receive a valid response from the internal service. : {"HttpStatus":400,"ReasonPhrase":"REST API Exception","ErrorMessage":"Closed Project.","ErrorType":"Ice.BLException","ErrorDetails":[{"Message":"Closed Project.","Type":"Error","Program":"efx.btmobileimport.dll","Method":"Run"}],"CorrelationId":"ae9af1d0-367f-4023-8446-46549d9923e2"} | IP=::ffff:127.0.0.1 | Endpoint=/Entry/EntryPoint | TraceId=0HNH7I39PJP3Q:00000001
+
+At 2025-11-19 12:44:01 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:56266
+At 2025-11-19 12:44:01::ffff:127.0.0.1:56266 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/CreateExpense
+[2025-11-19 12:44:02] ERROR 502 - INTERNAL_GATEWAY_ERROR - The gateway did not receive a valid response from the internal service. : {"HttpStatus":400,"ReasonPhrase":"REST API Exception","ErrorMessage":"Project is inactive.","ErrorType":"Ice.BLException","ErrorDetails":[{"Message":"Project is inactive.","Type":"Error","Program":"efx.btmobileimport.dll","Method":"Run"}],"CorrelationId":"6cfecedf-2922-40ed-99f1-bd48381e4e1c"} | IP=::ffff:127.0.0.1 | Endpoint=/Entry/EntryPoint | TraceId=0HNH7I39PJP3R:00000001
+
+At 2025-11-19 12:44:02 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:56269
+At 2025-11-19 12:44:02::ffff:127.0.0.1:56269 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/CreateExpense
+[2025-11-19 12:44:02] ERROR 502 - INTERNAL_GATEWAY_ERROR - The gateway did not receive a valid response from the internal service. : {"HttpStatus":400,"ReasonPhrase":"REST API Exception","ErrorMessage":"Project is inactive.","ErrorType":"Ice.BLException","ErrorDetails":[{"Message":"Project is inactive.","Type":"Error","Program":"efx.btmobileimport.dll","Method":"Run"}],"CorrelationId":"84202937-4463-4d7e-b47e-23013c51ee33"} | IP=::ffff:127.0.0.1 | Endpoint=/Entry/EntryPoint | TraceId=0HNH7I39PJP3S:00000001
+
+At 2025-11-19 12:44:02 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:56272
+At 2025-11-19 12:44:02::ffff:127.0.0.1:56272 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/CreateExpense
+[2025-11-19 12:44:02] ERROR 502 - INTERNAL_GATEWAY_ERROR - The gateway did not receive a valid response from the internal service. : {"HttpStatus":400,"ReasonPhrase":"REST API Exception","ErrorMessage":"Project is inactive.","ErrorType":"Ice.BLException","ErrorDetails":[{"Message":"Project is inactive.","Type":"Error","Program":"efx.btmobileimport.dll","Method":"Run"}],"CorrelationId":"25943b43-a4b9-4282-84a4-b8076277c0ad"} | IP=::ffff:127.0.0.1 | Endpoint=/Entry/EntryPoint | TraceId=0HNH7I39PJP3T:00000001
+
+At 2025-11-19 12:44:02 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:56276
+At 2025-11-19 12:44:02::ffff:127.0.0.1:56276 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/CreateExpense
+[2025-11-19 12:44:02] ERROR 502 - INTERNAL_GATEWAY_ERROR - The gateway did not receive a valid response from the internal service. : {"HttpStatus":400,"ReasonPhrase":"REST API Exception","ErrorMessage":"Invalid Tax Liability.","ErrorType":"Ice.BLException","ErrorDetails":[{"Message":"Invalid Tax Liability.","Type":"Error","Program":"efx.btmobileimport.dll","Method":"Run"}],"CorrelationId":"7deb0f4f-d6e1-4fe1-bf3c-4261b9eb81ec"} | IP=::ffff:127.0.0.1 | Endpoint=/Entry/EntryPoint | TraceId=0HNH7I39PJP3U:00000001
+
+At 2025-11-19 12:44:03 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:56279
+At 2025-11-19 12:44:03::ffff:127.0.0.1:56279 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/CreateExpense
+[2025-11-19 12:44:03] ERROR 502 - INTERNAL_GATEWAY_ERROR - The gateway did not receive a valid response from the internal service. : {"HttpStatus":400,"ReasonPhrase":"REST API Exception","ErrorMessage":"Closed Project.","ErrorType":"Ice.BLException","ErrorDetails":[{"Message":"Closed Project.","Type":"Error","Program":"efx.btmobileimport.dll","Method":"Run"}],"CorrelationId":"d111d37e-170d-497f-927b-8364bf660f56"} | IP=::ffff:127.0.0.1 | Endpoint=/Entry/EntryPoint | TraceId=0HNH7I39PJP3V:00000001
+
+At 2025-11-19 12:45:12 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:60035
+At 2025-11-19 12:45:12::ffff:127.0.0.1:60035 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/CreateExpense
+
+At 2025-11-19 12:45:14 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:56341
+At 2025-11-19 12:45:14::ffff:127.0.0.1:56341 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/CreateExpense
+
+At 2025-11-19 12:45:14 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:56344
+At 2025-11-19 12:45:14::ffff:127.0.0.1:56344 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/CreateExpense
+
+At 2025-11-19 12:45:15 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:56347
+At 2025-11-19 12:45:15::ffff:127.0.0.1:56347 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/CreateExpense
+[2025-11-19 12:45:15] ERROR 502 - INTERNAL_GATEWAY_ERROR - The gateway did not receive a valid response from the internal service. : {"HttpStatus":400,"ReasonPhrase":"REST API Exception","ErrorMessage":"Closed Project.","ErrorType":"Ice.BLException","ErrorDetails":[{"Message":"Closed Project.","Type":"Error","Program":"efx.btmobileimport.dll","Method":"Run"}],"CorrelationId":"c0661e02-1014-4ffe-b46d-a9c758ae6968"} | IP=::ffff:127.0.0.1 | Endpoint=/Entry/EntryPoint | TraceId=0HNH7I39PJP43:00000001
+
+At 2025-11-19 12:45:15 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:56350
+At 2025-11-19 12:45:15::ffff:127.0.0.1:56350 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/CreateExpense
+[2025-11-19 12:45:15] ERROR 502 - INTERNAL_GATEWAY_ERROR - The gateway did not receive a valid response from the internal service. : {"HttpStatus":400,"ReasonPhrase":"REST API Exception","ErrorMessage":"Project is inactive.","ErrorType":"Ice.BLException","ErrorDetails":[{"Message":"Project is inactive.","Type":"Error","Program":"efx.btmobileimport.dll","Method":"Run"}],"CorrelationId":"95986bcf-8e4d-40b4-8691-303e436a9970"} | IP=::ffff:127.0.0.1 | Endpoint=/Entry/EntryPoint | TraceId=0HNH7I39PJP44:00000001
+
+At 2025-11-19 12:45:15 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:56353
+At 2025-11-19 12:45:15::ffff:127.0.0.1:56353 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/CreateExpense
+[2025-11-19 12:45:16] ERROR 502 - INTERNAL_GATEWAY_ERROR - The gateway did not receive a valid response from the internal service. : {"HttpStatus":400,"ReasonPhrase":"REST API Exception","ErrorMessage":"Project is inactive.","ErrorType":"Ice.BLException","ErrorDetails":[{"Message":"Project is inactive.","Type":"Error","Program":"efx.btmobileimport.dll","Method":"Run"}],"CorrelationId":"666669df-a21c-411b-9f49-327869d6f0a5"} | IP=::ffff:127.0.0.1 | Endpoint=/Entry/EntryPoint | TraceId=0HNH7I39PJP45:00000001
+
+At 2025-11-19 12:45:16 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:56356
+At 2025-11-19 12:45:16::ffff:127.0.0.1:56356 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/CreateExpense
+[2025-11-19 12:45:16] ERROR 502 - INTERNAL_GATEWAY_ERROR - The gateway did not receive a valid response from the internal service. : {"HttpStatus":400,"ReasonPhrase":"REST API Exception","ErrorMessage":"Project is inactive.","ErrorType":"Ice.BLException","ErrorDetails":[{"Message":"Project is inactive.","Type":"Error","Program":"efx.btmobileimport.dll","Method":"Run"}],"CorrelationId":"d7aec771-79b4-4a11-a477-e684676386fc"} | IP=::ffff:127.0.0.1 | Endpoint=/Entry/EntryPoint | TraceId=0HNH7I39PJP46:00000001
+
+At 2025-11-19 12:45:16 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:56359
+At 2025-11-19 12:45:16::ffff:127.0.0.1:56359 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/CreateExpense
+
+At 2025-11-19 12:45:16 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:54512
+At 2025-11-19 12:45:16::ffff:127.0.0.1:54512 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/CreateExpense
+[2025-11-19 12:45:17] ERROR 502 - INTERNAL_GATEWAY_ERROR - The gateway did not receive a valid response from the internal service. : {"HttpStatus":400,"ReasonPhrase":"REST API Exception","ErrorMessage":"Closed Project.","ErrorType":"Ice.BLException","ErrorDetails":[{"Message":"Closed Project.","Type":"Error","Program":"efx.btmobileimport.dll","Method":"Run"}],"CorrelationId":"e32583ce-5da9-43e2-86e0-bd39d6d61852"} | IP=::ffff:127.0.0.1 | Endpoint=/Entry/EntryPoint | TraceId=0HNH7I39PJP48:00000001
+
+At 2025-11-19 12:46:49 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:62026
+At 2025-11-19 12:46:49::ffff:127.0.0.1:62026 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/CreateExpense
+[2025-11-19 12:46:49] ERROR 502 - INTERNAL_GATEWAY_ERROR - The gateway did not receive a valid response from the internal service. : {"HttpStatus":400,"ReasonPhrase":"REST API Exception","ErrorMessage":"La dépense existe déjà.","ErrorType":"Ice.BLException","ErrorDetails":[{"Message":"La dépense existe déjà.","Type":"Error","Program":"efx.btmobileimport.dll","Method":"Run"}],"CorrelationId":"0e2c5d9e-7c5c-4fee-ba7c-df47152389f9"} | IP=::ffff:127.0.0.1 | Endpoint=/Entry/EntryPoint | TraceId=0HNH7I39PJP49:00000001
+
+At 2025-11-19 12:49:52 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:58702
+At 2025-11-19 12:49:52::ffff:127.0.0.1:58702 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/CreateExpense
+[2025-11-19 12:49:52] ERROR 502 - INTERNAL_GATEWAY_ERROR - The gateway did not receive a valid response from the internal service. : {"HttpStatus":400,"ReasonPhrase":"REST API Exception","ErrorMessage":"La dépense existe déjà.","ErrorType":"Ice.BLException","ErrorDetails":[{"Message":"La dépense existe déjà.","Type":"Error","Program":"efx.btmobileimport.dll","Method":"Run"}],"CorrelationId":"6f997c3e-1730-4884-8778-217014d41e11"} | IP=::ffff:127.0.0.1 | Endpoint=/Entry/EntryPoint | TraceId=0HNH7I39PJP4A:00000001
+
+At 2025-11-19 12:52:15 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:55024
+At 2025-11-19 12:52:15::ffff:127.0.0.1:55024 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/CreateExpense
+[2025-11-19 12:52:15] ERROR 502 - INTERNAL_GATEWAY_ERROR - The gateway did not receive a valid response from the internal service. : {"HttpStatus":400,"ReasonPhrase":"REST API Exception","ErrorMessage":"La dépense existe déjà.","ErrorType":"Ice.BLException","ErrorDetails":[{"Message":"La dépense existe déjà.","Type":"Error","Program":"efx.btmobileimport.dll","Method":"Run"}],"CorrelationId":"f0fb4b42-c903-41bf-9746-facaf5994fa9"} | IP=::ffff:127.0.0.1 | Endpoint=/Entry/EntryPoint | TraceId=0HNH7I39PJP4B:00000001
+
+At 2025-11-19 12:53:05 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:55525
+At 2025-11-19 12:53:05::ffff:127.0.0.1:55525 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/CreateExpense
+[2025-11-19 12:53:06] ERROR 502 - INTERNAL_GATEWAY_ERROR - The gateway did not receive a valid response from the internal service. : {"HttpStatus":400,"ReasonPhrase":"REST API Exception","ErrorMessage":"La dépense existe déjà.","ErrorType":"Ice.BLException","ErrorDetails":[{"Message":"La dépense existe déjà.","Type":"Error","Program":"efx.btmobileimport.dll","Method":"Run"}],"CorrelationId":"90a1b9bf-2eb9-420d-b28e-588cddddb83c"} | IP=::ffff:127.0.0.1 | Endpoint=/Entry/EntryPoint | TraceId=0HNH7I39PJP4C:00000001
+
+At 2025-11-19 12:53:06 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:55528
+At 2025-11-19 12:53:06::ffff:127.0.0.1:55528 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/CreateExpense
+[2025-11-19 12:53:06] ERROR 502 - INTERNAL_GATEWAY_ERROR - The gateway did not receive a valid response from the internal service. : {"HttpStatus":400,"ReasonPhrase":"REST API Exception","ErrorMessage":"La dépense existe déjà.","ErrorType":"Ice.BLException","ErrorDetails":[{"Message":"La dépense existe déjà.","Type":"Error","Program":"efx.btmobileimport.dll","Method":"Run"}],"CorrelationId":"8c753238-27c2-4c8a-a2ec-823da6751927"} | IP=::ffff:127.0.0.1 | Endpoint=/Entry/EntryPoint | TraceId=0HNH7I39PJP4D:00000001
+
+At 2025-11-19 12:53:06 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:55531
+At 2025-11-19 12:53:06::ffff:127.0.0.1:55531 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/CreateExpense
+[2025-11-19 12:53:06] ERROR 502 - INTERNAL_GATEWAY_ERROR - The gateway did not receive a valid response from the internal service. : {"HttpStatus":400,"ReasonPhrase":"REST API Exception","ErrorMessage":"La dépense existe déjà.","ErrorType":"Ice.BLException","ErrorDetails":[{"Message":"La dépense existe déjà.","Type":"Error","Program":"efx.btmobileimport.dll","Method":"Run"}],"CorrelationId":"5a0e592b-e286-4ba8-91ff-38bc4d66acee"} | IP=::ffff:127.0.0.1 | Endpoint=/Entry/EntryPoint | TraceId=0HNH7I39PJP4E:00000001
+
+At 2025-11-19 12:53:06 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:63091
+At 2025-11-19 12:53:06::ffff:127.0.0.1:63091 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/CreateExpense
+[2025-11-19 12:53:06] ERROR 502 - INTERNAL_GATEWAY_ERROR - The gateway did not receive a valid response from the internal service. : {"HttpStatus":400,"ReasonPhrase":"REST API Exception","ErrorMessage":"Closed Project.","ErrorType":"Ice.BLException","ErrorDetails":[{"Message":"Closed Project.","Type":"Error","Program":"efx.btmobileimport.dll","Method":"Run"}],"CorrelationId":"7dbb99ec-d378-4dfb-8a8d-13687f10c800"} | IP=::ffff:127.0.0.1 | Endpoint=/Entry/EntryPoint | TraceId=0HNH7I39PJP4F:00000001
+
+At 2025-11-19 12:53:06 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:63094
+At 2025-11-19 12:53:06::ffff:127.0.0.1:63094 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/CreateExpense
+[2025-11-19 12:53:07] ERROR 502 - INTERNAL_GATEWAY_ERROR - The gateway did not receive a valid response from the internal service. : {"HttpStatus":400,"ReasonPhrase":"REST API Exception","ErrorMessage":"Project is inactive.","ErrorType":"Ice.BLException","ErrorDetails":[{"Message":"Project is inactive.","Type":"Error","Program":"efx.btmobileimport.dll","Method":"Run"}],"CorrelationId":"ec1cb585-1485-483a-b9c6-168d5acf852d"} | IP=::ffff:127.0.0.1 | Endpoint=/Entry/EntryPoint | TraceId=0HNH7I39PJP4G:00000001
+
+At 2025-11-19 12:53:07 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:63097
+At 2025-11-19 12:53:07::ffff:127.0.0.1:63097 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/CreateExpense
+[2025-11-19 12:53:07] ERROR 502 - INTERNAL_GATEWAY_ERROR - The gateway did not receive a valid response from the internal service. : {"HttpStatus":400,"ReasonPhrase":"REST API Exception","ErrorMessage":"Project is inactive.","ErrorType":"Ice.BLException","ErrorDetails":[{"Message":"Project is inactive.","Type":"Error","Program":"efx.btmobileimport.dll","Method":"Run"}],"CorrelationId":"126a5f54-3ca5-4af8-9c0d-0e139d765c69"} | IP=::ffff:127.0.0.1 | Endpoint=/Entry/EntryPoint | TraceId=0HNH7I39PJP4H:00000001
+
+At 2025-11-19 12:53:07 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:63100
+At 2025-11-19 12:53:07::ffff:127.0.0.1:63100 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/CreateExpense
+[2025-11-19 12:53:07] ERROR 502 - INTERNAL_GATEWAY_ERROR - The gateway did not receive a valid response from the internal service. : {"HttpStatus":400,"ReasonPhrase":"REST API Exception","ErrorMessage":"Project is inactive.","ErrorType":"Ice.BLException","ErrorDetails":[{"Message":"Project is inactive.","Type":"Error","Program":"efx.btmobileimport.dll","Method":"Run"}],"CorrelationId":"aab0f5bf-6593-4cd9-b3c8-7becf17690f8"} | IP=::ffff:127.0.0.1 | Endpoint=/Entry/EntryPoint | TraceId=0HNH7I39PJP4I:00000001
+
+At 2025-11-19 12:53:07 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:63103
+At 2025-11-19 12:53:07::ffff:127.0.0.1:63103 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/CreateExpense
+[2025-11-19 12:53:07] ERROR 502 - INTERNAL_GATEWAY_ERROR - The gateway did not receive a valid response from the internal service. : {"HttpStatus":400,"ReasonPhrase":"REST API Exception","ErrorMessage":"La dépense existe déjà.","ErrorType":"Ice.BLException","ErrorDetails":[{"Message":"La dépense existe déjà.","Type":"Error","Program":"efx.btmobileimport.dll","Method":"Run"}],"CorrelationId":"772ff60e-45b0-41a1-9dac-cfbf67321190"} | IP=::ffff:127.0.0.1 | Endpoint=/Entry/EntryPoint | TraceId=0HNH7I39PJP4J:00000001
+
+At 2025-11-19 12:53:08 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:63106
+At 2025-11-19 12:53:08::ffff:127.0.0.1:63106 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/CreateExpense
+[2025-11-19 12:53:08] ERROR 502 - INTERNAL_GATEWAY_ERROR - The gateway did not receive a valid response from the internal service. : {"HttpStatus":400,"ReasonPhrase":"REST API Exception","ErrorMessage":"Closed Project.","ErrorType":"Ice.BLException","ErrorDetails":[{"Message":"Closed Project.","Type":"Error","Program":"efx.btmobileimport.dll","Method":"Run"}],"CorrelationId":"0cc0d7bc-8315-4a85-a56b-f0fc137c8e79"} | IP=::ffff:127.0.0.1 | Endpoint=/Entry/EntryPoint | TraceId=0HNH7I39PJP4K:00000001
+
+At 2025-11-19 13:07:35 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:63423
+At 2025-11-19 13:07:35::ffff:127.0.0.1:63423 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/CreateExpense
+
+At 2025-11-19 13:08:23 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:59387
+At 2025-11-19 13:08:23::ffff:127.0.0.1:59387 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/CreateExpense
+[2025-11-19 13:08:24] ERROR 502 - INTERNAL_GATEWAY_ERROR - The gateway did not receive a valid response from the internal service. : {"HttpStatus":400,"ReasonPhrase":"REST API Exception","ErrorMessage":"La dépense existe déjà.","ErrorType":"Ice.BLException","ErrorDetails":[{"Message":"La dépense existe déjà.","Type":"Error","Program":"efx.btmobileimport.dll","Method":"Run"}],"CorrelationId":"16a63c0e-957d-410a-a66b-21c00ecb0fa7"} | IP=::ffff:127.0.0.1 | Endpoint=/Entry/EntryPoint | TraceId=0HNH7I39PJP4M:00000001
+
+At 2025-11-19 13:13:59 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:65361
+At 2025-11-19 13:13:59::ffff:127.0.0.1:65361 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/CreateExpense
+
+At 2025-11-19 13:14:00 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:65364
+At 2025-11-19 13:14:00::ffff:127.0.0.1:65364 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/CreateExpense
+
+At 2025-11-19 13:14:00 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:65367
+At 2025-11-19 13:14:00::ffff:127.0.0.1:65367 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/CreateExpense
+
+At 2025-11-19 13:14:01 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:65370
+At 2025-11-19 13:14:01::ffff:127.0.0.1:65370 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/CreateExpense
+[2025-11-19 13:14:01] ERROR 502 - INTERNAL_GATEWAY_ERROR - The gateway did not receive a valid response from the internal service. : {"HttpStatus":400,"ReasonPhrase":"REST API Exception","ErrorMessage":"Closed Project.","ErrorType":"Ice.BLException","ErrorDetails":[{"Message":"Closed Project.","Type":"Error","Program":"efx.btmobileimport.dll","Method":"Run"}],"CorrelationId":"2e7515fe-bf06-4570-99b6-8a9f37956594"} | IP=::ffff:127.0.0.1 | Endpoint=/Entry/EntryPoint | TraceId=0HNH7ITKOD3IJ:00000001
+
+At 2025-11-19 13:14:01 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:58891
+At 2025-11-19 13:14:01::ffff:127.0.0.1:58891 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/CreateExpense
+[2025-11-19 13:14:01] ERROR 502 - INTERNAL_GATEWAY_ERROR - The gateway did not receive a valid response from the internal service. : {"HttpStatus":400,"ReasonPhrase":"REST API Exception","ErrorMessage":"Project is inactive.","ErrorType":"Ice.BLException","ErrorDetails":[{"Message":"Project is inactive.","Type":"Error","Program":"efx.btmobileimport.dll","Method":"Run"}],"CorrelationId":"9ff41e2f-e3ad-4f5d-90cc-2123d11b8955"} | IP=::ffff:127.0.0.1 | Endpoint=/Entry/EntryPoint | TraceId=0HNH7ITKOD3IK:00000001
+
+At 2025-11-19 13:14:01 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:58895
+At 2025-11-19 13:14:01::ffff:127.0.0.1:58895 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/CreateExpense
+[2025-11-19 13:14:02] ERROR 502 - INTERNAL_GATEWAY_ERROR - The gateway did not receive a valid response from the internal service. : {"HttpStatus":400,"ReasonPhrase":"REST API Exception","ErrorMessage":"Project is inactive.","ErrorType":"Ice.BLException","ErrorDetails":[{"Message":"Project is inactive.","Type":"Error","Program":"efx.btmobileimport.dll","Method":"Run"}],"CorrelationId":"f7035dbd-407d-4cdd-91c3-ff03de3c9569"} | IP=::ffff:127.0.0.1 | Endpoint=/Entry/EntryPoint | TraceId=0HNH7ITKOD3IL:00000001
+
+At 2025-11-19 13:14:02 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:58898
+At 2025-11-19 13:14:02::ffff:127.0.0.1:58898 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/CreateExpense
+[2025-11-19 13:14:02] ERROR 502 - INTERNAL_GATEWAY_ERROR - The gateway did not receive a valid response from the internal service. : {"HttpStatus":400,"ReasonPhrase":"REST API Exception","ErrorMessage":"Project is inactive.","ErrorType":"Ice.BLException","ErrorDetails":[{"Message":"Project is inactive.","Type":"Error","Program":"efx.btmobileimport.dll","Method":"Run"}],"CorrelationId":"b199516f-5d80-4429-86d9-44d755ca1cc9"} | IP=::ffff:127.0.0.1 | Endpoint=/Entry/EntryPoint | TraceId=0HNH7ITKOD3IM:00000001
+
+At 2025-11-19 13:14:02 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:58901
+At 2025-11-19 13:14:02::ffff:127.0.0.1:58901 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/CreateExpense
+
+At 2025-11-19 13:14:03 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:58904
+At 2025-11-19 13:14:03::ffff:127.0.0.1:58904 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/CreateExpense
+[2025-11-19 13:14:03] ERROR 502 - INTERNAL_GATEWAY_ERROR - The gateway did not receive a valid response from the internal service. : {"HttpStatus":400,"ReasonPhrase":"REST API Exception","ErrorMessage":"Closed Project.","ErrorType":"Ice.BLException","ErrorDetails":[{"Message":"Closed Project.","Type":"Error","Program":"efx.btmobileimport.dll","Method":"Run"}],"CorrelationId":"667dc135-9e26-40e3-a1a1-24ea195c4a9d"} | IP=::ffff:127.0.0.1 | Endpoint=/Entry/EntryPoint | TraceId=0HNH7ITKOD3IO:00000001
+
+At 2025-11-19 13:15:44 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:52147
+At 2025-11-19 13:15:44::ffff:127.0.0.1:52147 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/CreateExpense
+[2025-11-19 13:15:44] ERROR 502 - INTERNAL_GATEWAY_ERROR - The gateway did not receive a valid response from the internal service. : {"HttpStatus":400,"ReasonPhrase":"REST API Exception","ErrorMessage":"Closed Project.","ErrorType":"Ice.BLException","ErrorDetails":[{"Message":"Closed Project.","Type":"Error","Program":"efx.btmobileimport.dll","Method":"Run"}],"CorrelationId":"ff7fdf1c-5f9d-485d-ba32-37bebe629b9b"} | IP=::ffff:127.0.0.1 | Endpoint=/Entry/EntryPoint | TraceId=0HNH7ITKOD3IP:00000001
+
+At 2025-11-19 13:15:44 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:52150
+At 2025-11-19 13:15:44::ffff:127.0.0.1:52150 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/CreateExpense
+[2025-11-19 13:15:44] ERROR 502 - INTERNAL_GATEWAY_ERROR - The gateway did not receive a valid response from the internal service. : {"HttpStatus":400,"ReasonPhrase":"REST API Exception","ErrorMessage":"Project is inactive.","ErrorType":"Ice.BLException","ErrorDetails":[{"Message":"Project is inactive.","Type":"Error","Program":"efx.btmobileimport.dll","Method":"Run"}],"CorrelationId":"2a24c974-2365-45de-913e-b945661f2800"} | IP=::ffff:127.0.0.1 | Endpoint=/Entry/EntryPoint | TraceId=0HNH7ITKOD3IQ:00000001
+
+At 2025-11-19 13:15:44 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:54267
+At 2025-11-19 13:15:44::ffff:127.0.0.1:54267 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/CreateExpense
+[2025-11-19 13:15:45] ERROR 502 - INTERNAL_GATEWAY_ERROR - The gateway did not receive a valid response from the internal service. : {"HttpStatus":400,"ReasonPhrase":"REST API Exception","ErrorMessage":"Project is inactive.","ErrorType":"Ice.BLException","ErrorDetails":[{"Message":"Project is inactive.","Type":"Error","Program":"efx.btmobileimport.dll","Method":"Run"}],"CorrelationId":"c826b682-196d-4035-b51b-2ca178c567a4"} | IP=::ffff:127.0.0.1 | Endpoint=/Entry/EntryPoint | TraceId=0HNH7ITKOD3IR:00000001
+
+At 2025-11-19 13:15:45 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:54270
+At 2025-11-19 13:15:45::ffff:127.0.0.1:54270 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/CreateExpense
+[2025-11-19 13:15:45] ERROR 502 - INTERNAL_GATEWAY_ERROR - The gateway did not receive a valid response from the internal service. : {"HttpStatus":400,"ReasonPhrase":"REST API Exception","ErrorMessage":"Project is inactive.","ErrorType":"Ice.BLException","ErrorDetails":[{"Message":"Project is inactive.","Type":"Error","Program":"efx.btmobileimport.dll","Method":"Run"}],"CorrelationId":"a62a4d41-97f0-433a-b254-0bce07491cfc"} | IP=::ffff:127.0.0.1 | Endpoint=/Entry/EntryPoint | TraceId=0HNH7ITKOD3IS:00000001
+
+At 2025-11-19 13:15:45 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:54273
+At 2025-11-19 13:15:45::ffff:127.0.0.1:54273 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/CreateExpense
+[2025-11-19 13:15:45] ERROR 502 - INTERNAL_GATEWAY_ERROR - The gateway did not receive a valid response from the internal service. : {"HttpStatus":400,"ReasonPhrase":"REST API Exception","ErrorMessage":"Closed Project.","ErrorType":"Ice.BLException","ErrorDetails":[{"Message":"Closed Project.","Type":"Error","Program":"efx.btmobileimport.dll","Method":"Run"}],"CorrelationId":"1f4612d0-bdf2-4ce8-9f06-4c628b5c3eaf"} | IP=::ffff:127.0.0.1 | Endpoint=/Entry/EntryPoint | TraceId=0HNH7ITKOD3IT:00000001
+
+At 2025-11-19 14:22:23 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:59224
+At 2025-11-19 14:22:23::ffff:127.0.0.1:59224 accessed api point https://
+[2025-11-19 14:22:23] ERROR 403 - ENDPOINT_NOT_WHITELISTED - The requested endpoint is not allowed by the gateway. | IP=::ffff:127.0.0.1 | Endpoint=/Entry/EntryPoint | TraceId=0HNH7ITKOD3IU:00000001
+
+At 2025-11-19 14:22:23 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:59225
+At 2025-11-19 14:22:23::ffff:127.0.0.1:59225 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetPlantByCustomerID
+
+At 2025-11-19 14:22:23 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:59228
+At 2025-11-19 14:22:23::ffff:127.0.0.1:59228 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetEmployeeDataBase
+
+At 2025-11-19 14:22:23 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:55164
+At 2025-11-19 14:22:23::ffff:127.0.0.1:55164 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/odata/QS/Erp.BO.EmpBasicSvc/EmpBasics?%24select=EmpID%2CFirstName%2CLastName&%24filter=EmpID+eq+%27FORANT%27&%24top=1
+
+At 2025-11-19 14:22:23 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:55167
+At 2025-11-19 14:22:23::ffff:127.0.0.1:55167 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/BTMobileDataEntryMsSql
+
+At 2025-11-19 14:26:18 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:61692
+At 2025-11-19 14:26:18::ffff:127.0.0.1:61692 accessed api point https://
+[2025-11-19 14:26:18] ERROR 403 - ENDPOINT_NOT_WHITELISTED - The requested endpoint is not allowed by the gateway. | IP=::ffff:127.0.0.1 | Endpoint=/Entry/EntryPoint | TraceId=0HNH7ITKOD3J3:00000001
+
+At 2025-11-19 14:26:18 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:61693
+At 2025-11-19 14:26:18::ffff:127.0.0.1:61693 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetPlantByCustomerID
+
+At 2025-11-19 14:26:18 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:61696
+At 2025-11-19 14:26:18::ffff:127.0.0.1:61696 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetEmployeeDataBase
+
+At 2025-11-19 14:26:18 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:61699
+At 2025-11-19 14:26:18::ffff:127.0.0.1:61699 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/odata/QS/Erp.BO.EmpBasicSvc/EmpBasics?%24select=EmpID%2CFirstName%2CLastName&%24filter=EmpID+eq+%27FORANT%27&%24top=1
+
+At 2025-11-19 14:26:18 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:61702
+At 2025-11-19 14:26:18::ffff:127.0.0.1:61702 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetPlantByCustomerID
+
+At 2025-11-19 14:26:18 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:61705
+At 2025-11-19 14:26:18::ffff:127.0.0.1:61705 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetEmployeeDataBase
+
+At 2025-11-19 14:26:18 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:61708
+At 2025-11-19 14:26:18::ffff:127.0.0.1:61708 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/odata/QS/Erp.BO.EmpBasicSvc/EmpBasics?%24select=EmpID%2CFirstName%2CLastName&%24filter=EmpID+eq+%27FORANT%27&%24top=1
+
+At 2025-11-19 14:26:19 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:61711
+At 2025-11-19 14:26:19::ffff:127.0.0.1:61711 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetPlantByCustomerID
+
+At 2025-11-19 14:26:19 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:61714
+At 2025-11-19 14:26:19::ffff:127.0.0.1:61714 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetEmployeeDataBase
+
+At 2025-11-19 14:26:19 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:61717
+At 2025-11-19 14:26:19::ffff:127.0.0.1:61717 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/odata/QS/Erp.BO.EmpBasicSvc/EmpBasics?%24select=EmpID%2CFirstName%2CLastName&%24filter=EmpID+eq+%27FORANT%27&%24top=1
+
+At 2025-11-19 14:26:19 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:61720
+At 2025-11-19 14:26:19::ffff:127.0.0.1:61720 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetPlantByCustomerID
+
+At 2025-11-19 14:26:19 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:49914
+At 2025-11-19 14:26:19::ffff:127.0.0.1:49914 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetEmployeeDataBase
+
+At 2025-11-19 14:26:19 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:49917
+At 2025-11-19 14:26:19::ffff:127.0.0.1:49917 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/odata/QS/Erp.BO.EmpBasicSvc/EmpBasics?%24select=EmpID%2CFirstName%2CLastName&%24filter=EmpID+eq+%27FORANT%27&%24top=1
+
+At 2025-11-19 14:26:20 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:49920
+At 2025-11-19 14:26:20::ffff:127.0.0.1:49920 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetPlantByCustomerID
+
+At 2025-11-19 14:26:20 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:49923
+At 2025-11-19 14:26:20::ffff:127.0.0.1:49923 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetEmployeeDataBase
+
+At 2025-11-19 14:26:20 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:49926
+At 2025-11-19 14:26:20::ffff:127.0.0.1:49926 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/odata/QS/Erp.BO.EmpBasicSvc/EmpBasics?%24select=EmpID%2CFirstName%2CLastName&%24filter=EmpID+eq+%27FORANT%27&%24top=1
+
+At 2025-11-19 14:26:20 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:49929
+At 2025-11-19 14:26:20::ffff:127.0.0.1:49929 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetPlantByCustomerID
+
+At 2025-11-19 14:26:20 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:49932
+At 2025-11-19 14:26:20::ffff:127.0.0.1:49932 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/GetEmployeeDataBase
+
+At 2025-11-19 14:26:20 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:49935
+At 2025-11-19 14:26:20::ffff:127.0.0.1:49935 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/odata/QS/Erp.BO.EmpBasicSvc/EmpBasics?%24select=EmpID%2CFirstName%2CLastName&%24filter=EmpID+eq+%27FORANT%27&%24top=1
+
+At 2025-11-19 14:26:21 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:49938
+At 2025-11-19 14:26:21::ffff:127.0.0.1:49938 accessed api point https://epicordev.Qualtech.ca/ERPCRP/api/v2/efx/QS/BTMobileImport/BTMobileDataEntryMsSql

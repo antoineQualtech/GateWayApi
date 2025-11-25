@@ -1,30 +1,47 @@
 ﻿
 using Microsoft.AspNetCore.DataProtection.KeyManagement;
-using ProxyApiQualtech.Model;
-using Swashbuckle.AspNetCore.SwaggerGen;
-using System.Text;
-using System;
-using Newtonsoft.Json.Linq;
-using System.Reflection.PortableExecutable;
+using Microsoft.Extensions.Configuration;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
+using ProxyApiQualtech.Model;
+using ProxyApiQualtech.Services.FileWriter;
+using Swashbuckle.AspNetCore.SwaggerGen;
+using System;
+using System.IO.Pipelines;
+using System.Reflection.PortableExecutable;
+using System.Text;
+using System.Text.Json;
 using static System.Runtime.InteropServices.JavaScript.JSType;
+
 
 namespace ProxyApiQualtech.Services.ControllerEntryData
 {
+    public struct QualtechInternalHttpRequesterResponse
+    {
+        public bool IsSuccess { get; set; }
+        public string ResponseData { get; set; }
+    }
+
+    public struct EpicorErrorResponse
+    {
+        public int HttpStatus { get; set; }
+        public string ReasonPhrase { get; set; }
+        public string ErrorMessage { get; set; }
+    }
+
     public class EntryDataInterpreter : IEntryDataInterpreter
     {
         //les credentials epicor
-        private string epicorApiKey;
-        private string taskUserName;
-        private string taskPassword;
         private static string bearer;
+        private readonly IConfiguration _config;
+        private IFileWriter _filewriter;
 
-        public EntryDataInterpreter()
+        public EntryDataInterpreter(IConfiguration configuration, IFileWriter fileWriter)
         {
-            epicorApiKey = "kEcTYTqXn4sKi20uctfbqsTEETbrqCyEUfmXiYbA8RPbJ";
-            taskUserName = "TASK";
-            taskPassword = "LuK^d6swSwj4";
+            _config = configuration;
             bearer = "";
+            _config = configuration;
+            _filewriter = fileWriter;
         }
 
         /// <summary>
@@ -33,8 +50,9 @@ namespace ProxyApiQualtech.Services.ControllerEntryData
         /// <param name="entryData"></param>
         /// <returns></returns>
         /// <exception cref="Exception"></exception>
-        public async Task<string> QualtechInternalHttpRequester(EntryDataModel entryData)
+        public async Task<QualtechInternalHttpRequesterResponse> QualtechInternalHttpRequester(EntryDataModel entryData)
         {
+            QualtechInternalHttpRequesterResponse qualtechInternalHttpRequesterResponse = new QualtechInternalHttpRequesterResponse();
 
             //return response data
             string responseRet = string.Empty;
@@ -47,16 +65,21 @@ namespace ProxyApiQualtech.Services.ControllerEntryData
             //message de réponse 
             HttpResponseMessage response = null;
 
+            //si succes 
+            bool successEpicorResponse = false;
+
             //si épicor endpoint générer un bearer
             if (entryData.IsEpicorApiEndPoint)
             {
                 //générer bearer pour api epicor
+                string apiBearer = await GenerateEpicorApiBearer(entryData.EpicorEnvironnement.ToString(), entryData);
+                if (apiBearer == null)
+                {
+                    qualtechInternalHttpRequesterResponse.IsSuccess = false;
+                    qualtechInternalHttpRequesterResponse.ResponseData = "Could not generate epicor API bearer token for : " + entryData.UrlEndPoint.ToString();
 
-
-                string apiBearer = await GenerateEpicorApiBearer(entryData.EpicorEnvironnement.ToString());
-                if (apiBearer == null) 
-                    return null;
-                
+                    return qualtechInternalHttpRequesterResponse;
+                } 
 
                 //générer un client avec les bons headers
                 HttpClient client = QualtechInternalHttpRequestHeadersBuilder(entryData, clientHandler, apiBearer);
@@ -95,6 +118,7 @@ namespace ProxyApiQualtech.Services.ControllerEntryData
                     
                     response = await client.PostAsync(entryData.UrlEndPoint, content);
                     responseRet = await response.Content.ReadAsStringAsync();
+                    
                 }
                 //pas utilisé pour l'instant
                 else if (entryData.RequestType == Constants.HttpRequestTypes.PATCH)
@@ -109,50 +133,59 @@ namespace ProxyApiQualtech.Services.ControllerEntryData
                 }
                 else
                 {
-                    return null;
+                    successEpicorResponse = false;
                 }
 
-            } else {
-                HttpClient client = QualtechInternalHttpRequestHeadersBuilder(entryData, clientHandler, null);
-                //le contenu de la requête
+                //valider si appel épicor réussi
+                successEpicorResponse = await this.EpicorValidateIfSuccessfulResponse(responseRet);
 
-                var jsonContent = JsonConvert.SerializeObject(entryData.RequestBody.ToString());
-                var content = new StringContent(jsonContent, Encoding.UTF8, "application/json");
-
-                if (entryData.RequestType == Constants.HttpRequestTypes.GET)
-                {
-                    response = await client.GetAsync(entryData.UrlEndPoint);
-                    responseRet = await response.Content.ReadAsStringAsync();
-                }
-                else if (entryData.RequestType == Constants.HttpRequestTypes.PUT)
-                {
-                    response = await client.PutAsync(entryData.UrlEndPoint, content);
-                    responseRet = await response.Content.ReadAsStringAsync();
-                }
-                else if (entryData.RequestType == Constants.HttpRequestTypes.POST)
-                {
-                    response = await client.PostAsync(entryData.UrlEndPoint, content);
-                    responseRet = await response.Content.ReadAsStringAsync();
-                }
-                //pas utilisé pour l'instant
-                else if (entryData.RequestType == Constants.HttpRequestTypes.PATCH)
-                {
-                    response = await client.PatchAsync(entryData.UrlEndPoint, content);
-                    responseRet = await response.Content.ReadAsStringAsync();
-                }
-                else if (entryData.RequestType == Constants.HttpRequestTypes.DELETE)
-                {
-                    response = await client.DeleteAsync(entryData.UrlEndPoint);
-                    responseRet = await response.Content.ReadAsStringAsync();
-                }
-                else
-                {
-                    return null;
-                }
+            }
+            else {
+                
             }
 
-            return responseRet;
+            qualtechInternalHttpRequesterResponse.IsSuccess = successEpicorResponse;
+            qualtechInternalHttpRequesterResponse.ResponseData = responseRet;
+
+            return qualtechInternalHttpRequesterResponse;
         }
+
+        /// <summary>
+        /// Aller chercher le message d'erreur dans la réponse de l'API interne EPICOR.
+        /// Si HttpStatus >= 400, ErrorMessage contiendra le message d'erreur.
+        /// </summary>
+        public async Task<bool> EpicorValidateIfSuccessfulResponse(string responseString)
+        {
+            bool isEpicorResponseSuccessful = true;
+
+            EpicorErrorResponse epicorErrorResponse = new EpicorErrorResponse();
+
+            try
+            {
+                using var jsonDoc = JsonDocument.Parse(responseString);
+                var root = jsonDoc.RootElement;
+
+                // HttpStatus (obligatoire pour savoir si erreur ou non)
+                if (root.TryGetProperty("HttpStatus", out JsonElement httpStatusElement))
+                {
+                    epicorErrorResponse.HttpStatus = httpStatusElement.GetInt32();
+                }
+
+                if(epicorErrorResponse.HttpStatus >= 400)
+                {
+                    isEpicorResponseSuccessful = false;
+                }
+
+            }
+            catch (Exception ex)
+            {
+                //si erreur probablement pas un format attendu
+                isEpicorResponseSuccessful = false;
+            }
+
+            return isEpicorResponseSuccessful;
+        }
+
 
         /// <summary>
         /// Permet d'éviter les certificats invalide ssl
@@ -204,20 +237,31 @@ namespace ProxyApiQualtech.Services.ControllerEntryData
             {
                 //bearer et apikey
                 client.DefaultRequestHeaders.Add("Authorization", ("Bearer " + bearerToken));
-                client.DefaultRequestHeaders.Add("X-API-Key", this.epicorApiKey);
+                client.DefaultRequestHeaders.Add("X-API-Key", this._config["Epicor_X_API_KEY"].ToString());
             }
 
             return client;
         }
 
 
-        public async Task<string> GenerateEpicorApiBearer(string epiEnv)
+        public async Task<string> GenerateEpicorApiBearer(string epiEnv, EntryDataModel entryData)
         {
 
             //pour l'instant les certificats sont invalides à l'interne donc enlevé la validation ssl
             HttpClientHandler clientHandler = CreateHandlerToRemoveCert();
 
-            string url = $"https://qbcdeverpapp.qualtech.int/{epiEnv}/TokenResource.svc/";
+            string url = "";
+            //si prod ou pas
+            if (entryData.UrlEndPoint.Contains(this._config["EpicorServerPROD"].ToString()))
+            {
+                url = $"{this._config["Protocol"].ToString()}://{this._config["EpicorServerPROD"].ToString()}/{epiEnv}/TokenResource.svc";
+            }
+            else
+            {
+                url = $"{this._config["Protocol"].ToString()}://{this._config["EpicorServerDEV"].ToString()}/{epiEnv}/TokenResource.svc";
+            }
+
+
             string bearerToken = string.Empty;
             string tokenType = string.Empty;
 
@@ -226,9 +270,9 @@ namespace ProxyApiQualtech.Services.ControllerEntryData
                 // Set request headers
                 client.DefaultRequestHeaders.Accept.Clear();
                 client.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
-                client.DefaultRequestHeaders.Add("X-API-Key", this.epicorApiKey);
-                client.DefaultRequestHeaders.Add("Username", this.taskUserName);
-                client.DefaultRequestHeaders.Add("Password", this.taskPassword);
+                client.DefaultRequestHeaders.Add("X-API-Key", this._config["Epicor_X_API_KEY"].ToString());
+                client.DefaultRequestHeaders.Add("Username", this._config["EpicorUsername"].ToString());
+                client.DefaultRequestHeaders.Add("Password", this._config["EpicorPassword"].ToString());
 
                 // Set the content for the request
                 var content = new StringContent(string.Empty, Encoding.UTF8, "application/x-www-form-urlencoded");
@@ -239,6 +283,7 @@ namespace ProxyApiQualtech.Services.ControllerEntryData
                 if (!response.IsSuccessStatusCode)
                 {
                     Console.BackgroundColor = ConsoleColor.Red;
+                    _filewriter.WriteLogFile("Could not generate epicor API bearer token for : " + url);
                     Console.WriteLine("Incapable de créer bearer token pour api Epicor. StatusCode:" + response.StatusCode + " " + DateTime.Now);
                     Console.ResetColor();
                     return null;

@@ -1,1 +1,30 @@
-sc.exe create "ApiGateWay" binpath="C:\Users\Antoine\Desktop\qualtech\GateWayApi\ProxyApiQualtech\ProxyApiQualtech\bin\Debug\net8.0\ProxyApiQualtech.exe"
+$currentPath  = Get-Location
+$serviceName  = "BtmobileGWDEV"
+$executablePath = "$currentPath\ProxyApiQualtech.exe"
+
+# Si le service existe déjà, on le supprime
+if (Get-Service -Name $serviceName -ErrorAction SilentlyContinue) {
+    Stop-Service -Name $serviceName -Force -ErrorAction SilentlyContinue
+    Write-Host "Stopped service '$serviceName'."
+
+    sc.exe delete $serviceName | Out-Null
+    Write-Host "Removed service '$serviceName'."
+}
+
+# IMPORTANT : binPath doit être entouré de guillemets
+$binPath = "`"$executablePath`""
+
+sc.exe create $serviceName binPath= $binPath start= auto
+sc.exe description $serviceName "API gateway for bt mobile (DEV)"
+
+# --- Config onglet Recovery (comme dans ton screenshot) ---
+# 1er échec : restart après 60000 ms (1 min)
+# 2e échec : restart après 60000 ms (1 min)
+# 3e échec : restart après 60000 ms (1 min)
+# Reset des compteurs après 0 jour
+sc.exe failure    $serviceName reset= 0 actions= restart/60000/restart/60000/restart/60000
+sc.exe failureflag $serviceName 1
+
+# Démarrer le service
+sc.exe start $serviceName | Out-Null
+Write-Host "Service '$serviceName' starté avec Recovery configuré."

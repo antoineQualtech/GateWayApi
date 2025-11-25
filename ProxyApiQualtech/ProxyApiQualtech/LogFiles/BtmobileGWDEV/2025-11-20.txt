@@ -1,0 +1,44 @@
+
+At 2025-11-20 16:50:49 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:53196
+At 2025-11-20 16:50:49::ffff:127.0.0.1:53196 accessed api point https://
+[2025-11-20 16:50:49] ERROR 403 - ENDPOINT_NOT_WHITELISTED - The requested endpoint is not allowed by the gateway. | IP=::ffff:127.0.0.1 | Endpoint=/Entry/EntryPoint | TraceId=0HNH8FRF3G0HC:00000001
+
+At 2025-11-20 16:50:49 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:53197
+At 2025-11-20 16:50:49::ffff:127.0.0.1:53197 accessed api point https://qbcdeverpapp01.qualtech.ca/ERPPilot/api/v2/efx/QS/BTMobileImport/GetPlantByCustomerID
+Could not generate epicor API bearer token for : http://qbcdeverpapp01.Qualtech.ca/ERPPilot/TokenResource.svc/
+[2025-11-20 16:50:49] ERROR 502 - INTERNAL_GATEWAY_ERROR - The gateway did not receive a valid response from the internal service. : Could not generate epicor API bearer token for : https://qbcdeverpapp01.qualtech.ca/ERPPilot/api/v2/efx/QS/BTMobileImport/GetPlantByCustomerID | IP=::ffff:127.0.0.1 | Endpoint=/Entry/EntryPoint | TraceId=0HNH8FRF3G0HD:00000001
+
+At 2025-11-20 16:55:06 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:64236
+At 2025-11-20 16:55:06::ffff:127.0.0.1:64236 accessed api point https://
+[2025-11-20 16:55:06] ERROR 403 - ENDPOINT_NOT_WHITELISTED - The requested endpoint is not allowed by the gateway. | IP=::ffff:127.0.0.1 | Endpoint=/Entry/EntryPoint | TraceId=0HNH8FTRLKSCQ:00000001
+
+At 2025-11-20 16:55:06 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:64237
+At 2025-11-20 16:55:06::ffff:127.0.0.1:64237 accessed api point https://qbcdeverpapp.qualtech.int/ERPPilot/api/v2/efx/QS/BTMobileImport/GetPlantByCustomerID
+Could not generate epicor API bearer token for : http://qbcdeverpapp.qualtech.int/ERPPilot/TokenResource.svc/
+[2025-11-20 16:55:06] ERROR 502 - INTERNAL_GATEWAY_ERROR - The gateway did not receive a valid response from the internal service. : Could not generate epicor API bearer token for : https://qbcdeverpapp.qualtech.int/ERPPilot/api/v2/efx/QS/BTMobileImport/GetPlantByCustomerID | IP=::ffff:127.0.0.1 | Endpoint=/Entry/EntryPoint | TraceId=0HNH8FTRLKSCR:00000001
+
+At 2025-11-20 16:56:31 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:60032
+At 2025-11-20 16:56:31::ffff:127.0.0.1:60032 accessed api point https://
+[2025-11-20 16:56:31] ERROR 403 - ENDPOINT_NOT_WHITELISTED - The requested endpoint is not allowed by the gateway. | IP=::ffff:127.0.0.1 | Endpoint=/Entry/EntryPoint | TraceId=0HNH8FUL0K81V:00000001
+
+At 2025-11-20 16:56:31 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:60033
+At 2025-11-20 16:56:31::ffff:127.0.0.1:60033 accessed api point https://qbcdeverpapp.qualtech.int/ERPPilot/api/v2/efx/QS/BTMobileImport/GetPlantByCustomerID
+Could not generate epicor API bearer token for : http://qbcdeverpapp.qualtech.int/ERPPilot/TokenResource.svc
+[2025-11-20 16:56:31] ERROR 502 - INTERNAL_GATEWAY_ERROR - The gateway did not receive a valid response from the internal service. : Could not generate epicor API bearer token for : https://qbcdeverpapp.qualtech.int/ERPPilot/api/v2/efx/QS/BTMobileImport/GetPlantByCustomerID | IP=::ffff:127.0.0.1 | Endpoint=/Entry/EntryPoint | TraceId=0HNH8FUL0K820:00000001
+
+At 2025-11-20 16:57:21 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:54361
+At 2025-11-20 16:57:21::ffff:127.0.0.1:54361 accessed api point https://
+[2025-11-20 16:57:21] ERROR 403 - ENDPOINT_NOT_WHITELISTED - The requested endpoint is not allowed by the gateway. | IP=::ffff:127.0.0.1 | Endpoint=/Entry/EntryPoint | TraceId=0HNH8FV3QPRL0:00000001
+
+At 2025-11-20 16:57:21 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:54362
+At 2025-11-20 16:57:21::ffff:127.0.0.1:54362 accessed api point https://qbcdeverpapp.qualtech.int/ERPPilot/api/v2/efx/QS/BTMobileImport/GetPlantByCustomerID
+
+At 2025-11-20 16:57:22 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:54365
+At 2025-11-20 16:57:22::ffff:127.0.0.1:54365 accessed api point https://qbcdeverpapp.qualtech.int/ERPPilot/api/v2/efx/QS/BTMobileImport/GetEmployeeDataBase
+
+At 2025-11-20 16:57:22 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:54368
+At 2025-11-20 16:57:22::ffff:127.0.0.1:54368 accessed api point https://qbcdeverpapp.qualtech.int/ERPPilot/api/v2/odata/QS/Erp.BO.EmpBasicSvc/EmpBasics?%24select=EmpID%2CFirstName%2CLastName&%24filter=EmpID+eq+%27FORANT%27&%24top=1
+
+At 2025-11-20 16:57:23 accessed entry point on: ::ffff:127.0.0.1:5205 from: ::ffff:127.0.0.1:55394
+At 2025-11-20 16:57:23::ffff:127.0.0.1:55394 accessed api point https://qbcdeverpapp.qualtech.int/ERPPilot/api/v2/efx/QS/BTMobileImport/BTMobileDataEntryMsSql
+[2025-11-20 16:57:23] ERROR 502 - INTERNAL_GATEWAY_ERROR - The gateway did not receive a valid response from the internal service. : {"HttpStatus":400,"ReasonPhrase":"REST API Exception","ErrorMessage":"SQL Error : lors de la vérification UNIQUE_ID 1063071-132166-FORANT - SQL Error : ligne avec ID 1063071-132166-FORANT existe déjà","ErrorType":"Ice.BLException","ErrorDetails":[{"Message":"SQL Error : lors de la vérification UNIQUE_ID 1063071-132166-FORANT - SQL Error : ligne avec ID 1063071-132166-FORANT existe déjà","Type":"Error","Program":"efx.btmobileimport.dll","Method":"Run"}],"CorrelationId":"2b0d20eb-a186-4c79-b6fb-2cdd30733f2b"} | IP=::ffff:127.0.0.1 | Endpoint=/Entry/EntryPoint | TraceId=0HNH8FV3QPRL4:00000001
